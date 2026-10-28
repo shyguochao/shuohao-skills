@@ -104,10 +104,17 @@ export function locateInputs(dir, title) {
 export function nameTables({ outline, cast, art }) {
   const chars = new Map();
   for (const c of outline?.characters ?? []) chars.set(c.id, { name: c.name });
-  (cast?.characters ?? []).forEach((c, i) => {
-    const id = [...chars].find(([, v]) => v.name === c.name)?.[0] ?? c.id ?? `C${String(i + 1).padStart(2, '0')}`;
+  const freeId = () => {
+    for (let n = 1; ; n++) {
+      const id = `C${String(n).padStart(2, '0')}`;
+      if (!chars.has(id)) return id;
+    }
+  };
+  // 对不回 outline 的角色拿一个没被占用的 id，不会顶掉 outline 里的同号角色
+  for (const c of cast?.characters ?? []) {
+    const id = [...chars].find(([, v]) => v.name === c.name)?.[0] ?? (c.id && !chars.has(c.id) ? c.id : freeId());
     chars.set(id, { ...chars.get(id), name: c.name, cast: c });
-  });
+  }
   const scenes = new Map();
   for (const s of outline?.scenes ?? []) scenes.set(s.id, { name: s.name });
   for (const s of art?.scenes ?? []) scenes.set(s.id, { ...scenes.get(s.id), name: s.name, art: s });

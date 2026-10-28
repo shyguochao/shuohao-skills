@@ -48,6 +48,7 @@ const names = nameTables(locateInputs(upstream).inputs);
 eq(names.chars.get('C01')?.name, '沈知微', 'cast 按姓名对回 outline 的 id');
 ok(names.chars.get('C01')?.cast, '对回后带上 cast 数据');
 eq(nameTables({ cast: { characters: [{ name: '甲' }, { name: '乙' }] } }).chars.get('C02')?.name, '乙', '没有 outline 时按顺序编号');
+eq(nameTables({ outline: { characters: [{ id: 'C01', name: '甲' }] }, cast: { characters: [{ name: '丙' }, { name: '甲' }] } }).chars.get('C02')?.name, '丙', '对不回 outline 的角色不顶掉同号角色');
 
 // —— 剧本画布
 const script = nodesOf(bundle, canvasPaths.script);
