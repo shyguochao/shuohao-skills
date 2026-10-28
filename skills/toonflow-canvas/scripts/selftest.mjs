@@ -4,7 +4,8 @@
 //   node scripts/selftest.mjs
 
 import assert from 'node:assert/strict';
-import { cpSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { cpSync, mkdtempSync, readFileSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
 import { tmpdir } from 'node:os';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -128,5 +129,17 @@ try {
 { const b = clone(); b.refs[b.keys.outline] = b.keys['cast:C01']; breaks(b, /不是图片素材节点/, 'refs 键'); }
 { const b = clone(); b.refs[b.keys['ref:1:cast:C01']] = b.keys.outline; breaks(b, /不是资产生成节点/, 'refs 值'); }
 { const b = clone(); b.warnings.push({ level: 'error', message: '人为错误' }); breaks(b, /人为错误/, 'warnings error'); }
+
+// —— 软链安装时 CLI 照常运行（argv[1] 是链接路径）
+{
+  const dir = mkdtempSync(join(tmpdir(), 'toonflow-canvas-'));
+  try {
+    symlinkSync(join(here, '..'), join(dir, 'toonflow-canvas'), 'dir');
+    const r = spawnSync(process.execPath, [join(dir, 'toonflow-canvas', 'scripts', 'toonflow-canvas.mjs'), 'validate', join(here, '..', 'examples', '渡口-toonflow.json')], { encoding: 'utf8' });
+    ok(r.status === 0 && r.stdout.includes('通过校验'), `软链路径运行 CLI — ${r.stdout}${r.stderr}`);
+  } finally {
+    rmSync(dir, { recursive: true, force: true });
+  }
+}
 
 console.log(`✓ ${passed} 项断言全部通过`);

@@ -9,7 +9,7 @@
  *
  * 节点格式对应 Toonflow-app af6e884，规则见 references/toonflow-format.md。
  */
-import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, realpathSync, writeFileSync } from 'node:fs';
 import { basename, join, resolve } from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -416,7 +416,15 @@ function main(argv) {
   return command ? 1 : 0;
 }
 
-if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+// 两边都取 realpath：软链安装时 argv[1] 是链接路径，而 import.meta.url 是真实路径
+const isMain = () => {
+  try {
+    return !!process.argv[1] && realpathSync(process.argv[1]) === realpathSync(fileURLToPath(import.meta.url));
+  } catch {
+    return false;
+  }
+};
+if (isMain()) {
   try {
     process.exitCode = main(process.argv.slice(2));
   } catch (error) {
