@@ -51,6 +51,9 @@ flowchart TD
     staging -->|复制开场走位句| storyboard[novel-storyboard · 分镜]
     refs -. 参考图片 .-> storyboard
     storyboard --> production[视频投产包]
+    production -.-> toonflow[toonflow-canvas · Toonflow 画布]
+    outline -.-> toonflow
+    toonflow --> app[Toonflow-app 原生画布]
 ```
 
 | Skill | 做什么 |
@@ -62,6 +65,7 @@ flowchart TD
 | [**novel-script**](skills/novel-script) | 给 AI 短剧写剧本：场次 + 节拍流（动作与台词交替），逐集时长按语速确定性折算，钩子前 3 拍冷开场兑现是门，台词本按角色聚合带音色提示词直接对接 TTS。10 道质量门全部脚本检查 |
 | [**novel-staging**](skills/novel-staging) | 给 AI 短剧的每一场排开场站位：先从场景图里认出能站能坐的东西、推算到俯视平面上，再按剧本排谁在哪件东西的哪一侧、坐还是站、面朝哪，程序写出开场走位句交给分镜照抄；报告是能拖动调整的俯视平面，改完导出就是新的 staging.json。8 道质量门全部脚本检查 |
 | [**novel-storyboard**](skills/novel-storyboard) | 给 AI 短剧出分镜：段（一次生成 ≤15 秒）→ 分镜（2–5 秒硬门）→ 分镜图（主图钉 0.00 秒、子图钉各自切点），MiniMax H3 提示词的对齐指令与切点时刻逐字对账；分镜图拿设定图当参考图真出图，export 一键出 H3 / Seedance 投产包。18 道质量门全部脚本检查 |
+| [**toonflow-canvas**](skills/toonflow-canvas/README.md) | 把以上产出转成 [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) 原生画布：大纲与剧本进文本节点，角色、场景、道具进图片生成节点，Seedance 分镜段进视频生成节点并连好参考图，`{{ref N}}` 与连线顺序一致。节点 id 确定性生成，再次转换原地更新提示词。本 fork 新增 |
 
 **六个制作阶段的报告都支持中英双语界面**：默认中文，`render --lang en` 出全英文报告（数据内容保持原文）。character-refs 的报告同样内置中英日界面，其他语言现场翻译。
 

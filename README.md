@@ -58,6 +58,9 @@ flowchart TD
     staging -->|Copy opening blocking| storyboard[novel-storyboard]
     refs -. Reference images .-> storyboard
     storyboard --> production[Video production packs]
+    production -.-> toonflow[toonflow-canvas]
+    outline -.-> toonflow
+    toonflow --> app[Toonflow-app native canvases]
 ```
 
 | Skill | What it does |
@@ -69,6 +72,7 @@ flowchart TD
 | [**novel-script**](skills/novel-script/README.en.md) | Screenwriting for AI short drama: scenes + beat flow (action beats alternating with dialogue lines), per-episode duration deterministically estimated from reading speed, a gated cold-open hook in the first 3 beats, a per-character line book with voice prompts that feeds straight into TTS. All 10 quality gates script-checked |
 | [**novel-staging**](skills/novel-staging/README.en.md) | Plans opening positions from the screenplay and scene images: each character’s seat or standing position, facing direction, opening presence, and extras. Produces staging.json, an editable top-view report, and opening blocking sentences for the storyboard. All 8 quality gates script-checked |
 | [**novel-storyboard**](skills/novel-storyboard/README.en.md) | Storyboarding for AI short drama: segments (one generation, ≤15s) → cuts (2–5s hard gate) → keyframes (master pinned at 0.00s, sub-frames at their cut marks), with MiniMax H3 prompt alignment and cut times audited verbatim; frames actually generated with the design sheets as references, plus one-command H3 / Seedance production packs. All 18 quality gates script-checked |
+| [**toonflow-canvas**](skills/toonflow-canvas/README.md) | Converts the outputs above into [Toonflow-app](https://github.com/HBAI-Ltd/Toonflow-app) native canvases: outline and screenplay as text nodes, characters/scenes/props as image-generation nodes, Seedance segments as video-generation nodes wired to their reference images with matching `{{ref N}}`. Deterministic node ids, so re-converting updates prompts in place. Fork addition |
 
 **All six pipeline skills render their reports in English too** — reports default to a Chinese UI; pass `--lang en` to `render` for a fully English report (data content stays as authored). character-refs ships Chinese, English and Japanese UIs too, and translates on the spot for other languages.
 

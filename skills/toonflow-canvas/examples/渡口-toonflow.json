@@ -1,0 +1,5227 @@
+{
+  "kind": "toonflow-bundle",
+  "version": 1,
+  "title": "渡口",
+  "toonflowFormat": "af6e884",
+  "canvases": {
+    "画布/剧本.json": {
+      "nodes": [
+        {
+          "id": "f7899a8a-2704-5523-ba0a-dac107d3f2c7",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "data": {
+            "label": "故事大纲｜渡口",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/f7899a8a-2704-5523-ba0a-dac107d3f2c7/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "da688fed-f202-5990-a8f0-716ee0ea2bf8",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 0
+          },
+          "data": {
+            "label": "第1集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/da688fed-f202-5990-a8f0-716ee0ea2bf8/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "206dfc1c-50a5-5719-a4fc-0b00962fe487",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 395
+          },
+          "data": {
+            "label": "第2集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/206dfc1c-50a5-5719-a4fc-0b00962fe487/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "fcea8818-067f-5feb-9cab-b5b596f7f55d",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 790
+          },
+          "data": {
+            "label": "第3集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/fcea8818-067f-5feb-9cab-b5b596f7f55d/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "1d150294-06b4-5d7f-a630-94b175f03c3d",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 1185
+          },
+          "data": {
+            "label": "第4集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/1d150294-06b4-5d7f-a630-94b175f03c3d/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "289a451a-0ea5-5e36-806a-2af1dd561b25",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 1580
+          },
+          "data": {
+            "label": "第5集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/289a451a-0ea5-5e36-806a-2af1dd561b25/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        },
+        {
+          "id": "78f7161a-fdfa-5d93-8d85-5d495badc51a",
+          "type": "remote-textNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 1975
+          },
+          "data": {
+            "label": "第6集剧本",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "VIDEO",
+                  "IMAGE",
+                  "STRING",
+                  "FILE"
+                ],
+                "label": "视频、图片、文本、文件输入"
+              },
+              {
+                "id": "text",
+                "type": "source",
+                "dataType": "STRING",
+                "label": "文本输出"
+              }
+            ],
+            "outputs": {},
+            "textPath": "assets/78f7161a-fdfa-5d93-8d85-5d495badc51a/content.md",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ]
+            ]
+          }
+        }
+      ],
+      "edges": []
+    },
+    "画布/资产.json": {
+      "nodes": [
+        {
+          "id": "62902e59-aac9-5701-af56-8ddaf17cb236",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "data": {
+            "label": "角色-沈知微",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "A slender nineteen-year-old Chinese girl of the 1930s with shoulders drawn slightly inward, wearing a dark navy-blue student tunic with a plain white collar and a mid-calf skirt, holding a battered brown leather suitcase in one hand. oval face with soft rounded cheeks and a delicate jaw, large dark wary eyes with slightly heavy lower lids, straight fine eyebrows, small straight nose, thin lips held lightly closed, a quiet apprehensive expression; centre-parted black hair drawn back into two long braids tied at the tips with faded red string. Young skin with visible pores across the nose and cheeks, uneven tone, faint capillaries at the nostrils and ear rims, subtle subsurface scattering where light passes the ear edge; eyes with a wet specular highlight, moist lower lid, visible iris fibres and a soft limbal ring; eyelids and eyebrows slightly asymmetric — no two sides identical; individual flyaway hair strands breaking the silhouette at the hairline and along the braids. Cotton twill with a visible weave, softened and slightly shiny at the elbows and cuffs from wear, the skirt falling with real weight and self-shadowing inside the pleats; the leather suitcase scuffed to a paler tone at the corners with the grain still readable. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle.\n避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "A slender nineteen-year-old Chinese girl of the 1930s with shoulders drawn slightly inward, wearing a dark navy-blue student tunic with a plain white collar and a mid-calf skirt, holding a battered brown leather suitcase in one hand. oval face with soft rounded cheeks and a delicate jaw, large dark wary eyes with slightly heavy lower lids, straight fine eyebrows, small straight nose, thin lips held lightly closed, a quiet apprehensive expression; centre-parted black hair drawn back into two long braids tied at the tips with faded red string. Young skin with visible pores across the nose and cheeks, uneven tone, faint capillaries at the nostrils and ear rims, subtle subsurface scattering where light passes the ear edge; eyes with a wet specular highlight, moist lower lid, visible iris fibres and a soft limbal ring; eyelids and eyebrows slightly asymmetric — no two sides identical; individual flyaway hair strands breaking the silhouette at the hairline and along the braids. Cotton twill with a visible weave, softened and slightly shiny at the elbows and cuffs from wear, the skirt falling with real weight and self-shadowing inside the pleats; the leather suitcase scuffed to a paler tone at the corners with the grain still readable. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle."
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "331eda01-c95b-5a47-9544-91cec3cea5de",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 395
+          },
+          "data": {
+            "label": "角色-陆行远",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "A lean, rigidly upright Chinese man in his late twenties, wearing a washed-out grey military wool greatcoat with the collar turned up, worn leather boots, right hand in the coat pocket. gaunt angular face, high sharp cheekbones, hollow cheeks, square set jaw, flat unblinking dark eyes under a heavy brow, a two-inch pale old scar cutting across the right brow ridge, straight thin mouth, hard guarded expression; short cropped black hair with high shaved sides. Weather-toughened skin with visible pores, uneven tone and a coarse shaved-stubble shadow along the jaw, faint capillaries at the nostrils; the brow scar sits slightly raised with paler, shinier tissue than the skin around it; eyes with a wet specular highlight, visible iris fibres, reddened inner corners; eyelids and brows noticeably asymmetric; short hair with individual flyaway hair strands breaking the crown silhouette. Heavy wool melton with a visible weave and nap and pilling at the cuffs, shine worn into the elbows and the seat of the coat, the skirt of the greatcoat hanging with real weight and deep self-shadowed folds; leather boots creased across the instep and polished dull at the toe. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle.\n避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "A lean, rigidly upright Chinese man in his late twenties, wearing a washed-out grey military wool greatcoat with the collar turned up, worn leather boots, right hand in the coat pocket. gaunt angular face, high sharp cheekbones, hollow cheeks, square set jaw, flat unblinking dark eyes under a heavy brow, a two-inch pale old scar cutting across the right brow ridge, straight thin mouth, hard guarded expression; short cropped black hair with high shaved sides. Weather-toughened skin with visible pores, uneven tone and a coarse shaved-stubble shadow along the jaw, faint capillaries at the nostrils; the brow scar sits slightly raised with paler, shinier tissue than the skin around it; eyes with a wet specular highlight, visible iris fibres, reddened inner corners; eyelids and brows noticeably asymmetric; short hair with individual flyaway hair strands breaking the crown silhouette. Heavy wool melton with a visible weave and nap and pilling at the cuffs, shine worn into the elbows and the seat of the coat, the skirt of the greatcoat hanging with real weight and deep self-shadowed folds; leather boots creased across the instep and polished dull at the toe. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle."
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "26a58836-eee5-518f-8ad3-f7ac8ce3a456",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 790
+          },
+          "data": {
+            "label": "角色-老周",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "An elderly Chinese ferryman around seventy with a heavily hunched back, wearing a faded indigo padded jacket with frayed cuffs, rolled trousers and worn straw sandals, holding a long bamboo punting pole. deeply weathered face, sunken cheeks, prominent cheekbones, the left eye clouded a pale milky white while the right stays sharp, sparse grey stubble, a nearly toothless mouth caught in a faint weary smile; thin grey hair cropped close to a balding scalp. Old sun-damaged skin: age spots across the cheekbones and the backs of the hands, slack sagging under the jaw and eyes, visible pores and uneven pigmentation. Eyelids and brows are noticeably asymmetric. Wrinkles follow the expression muscles — nasolabial folds, crow’s feet fanning from the outer eye corners, horizontal forehead lines — never randomly scored. The clouded left eye is dulled and slightly sunken with a bluish-white film, while the right keeps a wet specular highlight and visible iris fibres. Sparse grey stubble with individual hairs; thin flyaway hair strands breaking the silhouette at the balding crown. Coarse hand-woven cotton with a visible weave, quilted and pilled, the indigo faded unevenly and rubbed pale at the shoulders and cuffs, patches sewn on in mismatched thread; the fabric hangs heavy and slack with deep self-shadowing in the folds; straw sandals frayed at the weave. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle.\n避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "An elderly Chinese ferryman around seventy with a heavily hunched back, wearing a faded indigo padded jacket with frayed cuffs, rolled trousers and worn straw sandals, holding a long bamboo punting pole. deeply weathered face, sunken cheeks, prominent cheekbones, the left eye clouded a pale milky white while the right stays sharp, sparse grey stubble, a nearly toothless mouth caught in a faint weary smile; thin grey hair cropped close to a balding scalp. Old sun-damaged skin: age spots across the cheekbones and the backs of the hands, slack sagging under the jaw and eyes, visible pores and uneven pigmentation. Eyelids and brows are noticeably asymmetric. Wrinkles follow the expression muscles — nasolabial folds, crow’s feet fanning from the outer eye corners, horizontal forehead lines — never randomly scored. The clouded left eye is dulled and slightly sunken with a bluish-white film, while the right keeps a wet specular highlight and visible iris fibres. Sparse grey stubble with individual hairs; thin flyaway hair strands breaking the silhouette at the balding crown. Coarse hand-woven cotton with a visible weave, quilted and pilled, the indigo faded unevenly and rubbed pale at the shoulders and cuffs, patches sewn on in mismatched thread; the fabric hangs heavy and slack with deep self-shadowing in the folds; straw sandals frayed at the weave. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle."
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "3b029c57-d407-5e05-b282-2ea029a902df",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 1185
+          },
+          "data": {
+            "label": "角色-胡二爷",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "A plump Chinese travelling peddler in his mid-forties, round soft body on stout short legs, wearing a short russet cotton jacket with sleeves rolled to the elbow and a cloth waist sash, carrying a shoulder pole with two wooden crates hung with small brass bells. round full face with fat cheeks pushed up so the eyes crease into thin happy slits, broad flat nose, wide grinning mouth, double chin, sweat beading on a high balding forehead with thinning hair at the sides. Ruddy sun-exposed skin with visible pores, broken capillaries across the cheeks and nose, a sheen of sweat on the forehead catching the light; eyelids and brows slightly asymmetric; laugh lines fanning deep from the eye corners and around the mouth, following the expression muscles; eyes nearly closed by the raised cheeks, with a wet specular highlight in the visible sliver; thinning hair with individual flyaway hair strands breaking the silhouette at the temples. Coarse cotton with a visible weave, sweat-darkened at the collar and under the arms, shine worn into the shoulder where the carrying pole rests, rolled cuffs holding a permanent crease, the cloth hanging with real weight and self-shadowing in the folds; the wooden crates worn smooth and pale at the handled edges. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. warm palette of russet, mustard and brass, muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle.\n避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "A plump Chinese travelling peddler in his mid-forties, round soft body on stout short legs, wearing a short russet cotton jacket with sleeves rolled to the elbow and a cloth waist sash, carrying a shoulder pole with two wooden crates hung with small brass bells. round full face with fat cheeks pushed up so the eyes crease into thin happy slits, broad flat nose, wide grinning mouth, double chin, sweat beading on a high balding forehead with thinning hair at the sides. Ruddy sun-exposed skin with visible pores, broken capillaries across the cheeks and nose, a sheen of sweat on the forehead catching the light; eyelids and brows slightly asymmetric; laugh lines fanning deep from the eye corners and around the mouth, following the expression muscles; eyes nearly closed by the raised cheeks, with a wet specular highlight in the visible sliver; thinning hair with individual flyaway hair strands breaking the silhouette at the temples. Coarse cotton with a visible weave, sweat-darkened at the collar and under the arms, shine worn into the shoulder where the carrying pole rests, rolled cuffs holding a permanent crease, the cloth hanging with real weight and self-shadowing in the folds; the wooden crates worn smooth and pale at the handled edges. Three-quarter view, waist-up, plain neutral background. Soft directional key light from the upper left with a cool fill, gentle falloff, ambient occlusion under the chin and in the folds; shallow depth of field with the face in sharpest focus. warm palette of russet, mustard and brass, muted ink-blue and cold grey palette, 1930s Republican-era China, soft misty morning light, readable silhouette from every angle."
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：plastic or waxy skin, over-smoothed airbrushed complexion, poreless doll face, perfectly symmetrical face, dead flat eyes without specular highlight, helmet-like hair with no loose strands, flat untextured fabric with no weave or wear, stiff mannequin posing, extra fingers, malformed hands, text, watermark, signature, busy or patterned background, harsh cast shadows on the backdrop"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "2e9444c0-1459-55eb-967a-235b0fe03d24",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 0
+          },
+          "data": {
+            "label": "场景-渡船船舱",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "Interior of an old wooden ferry passenger cabin under a canvas canopy, Republican-era China, six worn bench rows, patched canopy corner leaking a seam of light, verdigris bronze bell at the bow, morning fog beyond the gunwale, empty scene with no people\n避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "Interior of an old wooden ferry passenger cabin under a canvas canopy, Republican-era China, six worn bench rows, patched canopy corner leaking a seam of light, verdigris bronze bell at the bow, morning fog beyond the gunwale, empty scene with no people"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "bad35207-caa6-545f-8526-70f6167412c6",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 920,
+            "y": 0
+          },
+          "data": {
+            "label": "场景-渡船船舱-晨雾",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "参考 {{ref 1}} 的同一空间与陈设，只改变光照：\ndense white morning fog outside the canopy, soft diffuse light with no shadows, cool grey palette, visibility beyond the gunwale fading to white",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "参考 {{ref 1}} 的同一空间与陈设，只改变光照："
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "dense white morning fog outside the canopy, soft diffuse light with no shadows, cool grey palette, visibility beyond the gunwale fading to white"
+                }
+              ]
+            ],
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%222e9444c0-1459-55eb-967a-235b0fe03d24%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "60c893cb-9e01-5668-a629-e845b9898b32",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 1380,
+            "y": 0
+          },
+          "data": {
+            "label": "场景-渡船船舱-雾散近岸",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "参考 {{ref 1}} 的同一空间与陈设，只改变光照：\nfog thinning to warm haze, low golden sunlight entering through the canopy seam, long soft shadows across the benches, mood lifting",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "参考 {{ref 1}} 的同一空间与陈设，只改变光照："
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "fog thinning to warm haze, low golden sunlight entering through the canopy seam, long soft shadows across the benches, mood lifting"
+                }
+              ]
+            ],
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%222e9444c0-1459-55eb-967a-235b0fe03d24%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "fdeb33c7-3a21-5a8e-b240-34ea1048691a",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 395
+          },
+          "data": {
+            "label": "场景-渡口栈桥",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "An old wooden ferry pier reaching into dense white fog, Republican-era southern China riverside, broken seventh plank patched with a rope-bound log, worn mooring stone, tilted lantern pole with an unlit paper lantern, wet planks, empty scene with no people\n避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "An old wooden ferry pier reaching into dense white fog, Republican-era southern China riverside, broken seventh plank patched with a rope-bound log, worn mooring stone, tilted lantern pole with an unlit paper lantern, wet planks, empty scene with no people"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "6a3b8c43-b82b-5f77-b4ca-e8686549968e",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 920,
+            "y": 395
+          },
+          "data": {
+            "label": "场景-渡口栈桥-浓雾清晨",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "参考 {{ref 1}} 的同一空间与陈设，只改变光照：\nthick white fog swallowing the far end of the pier, flat shadowless light, wet plank surfaces with faint sheen, cold desaturated palette",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "参考 {{ref 1}} 的同一空间与陈设，只改变光照："
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "thick white fog swallowing the far end of the pier, flat shadowless light, wet plank surfaces with faint sheen, cold desaturated palette"
+                }
+              ]
+            ],
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22fdeb33c7-3a21-5a8e-b240-34ea1048691a%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "b23c1d91-6045-5dda-ae64-c0b28dbdc9ce",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 460,
+            "y": 790
+          },
+          "data": {
+            "label": "场景-对岸芦苇滩",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "A desolate reed marsh riverbank seen across the water, Republican-era southern China, soft grey band of reeds in thinning warm haze, rotten wooden boat ribs half-buried in the mudflat, cold glint on wet mud, empty scene with no people\n避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "A desolate reed marsh riverbank seen across the water, Republican-era southern China, soft grey band of reeds in thinning warm haze, rotten wooden boat ribs half-buried in the mudflat, cold glint on wet mud, empty scene with no people"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：people, human figures, characters, crowds, silhouettes of people, plastic CG look, oversaturated colours, sterile showroom cleanliness, warped perspective, melted geometry, floating objects, text, watermark, signature"
+                }
+              ]
+            ],
+            "ratio": "16:9"
+          }
+        },
+        {
+          "id": "9bf1f27d-167b-5761-80be-86c8d5cbaafe",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 920,
+            "y": 790
+          },
+          "data": {
+            "label": "场景-对岸芦苇滩-薄雾午前",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "参考 {{ref 1}} 的同一空间与陈设，只改变光照：\nthin warm haze, diffuse pale gold light, reed silhouettes soft-edged, mudflat sheen catching the brightest value in frame",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "参考 {{ref 1}} 的同一空间与陈设，只改变光照："
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "thin warm haze, diffuse pale gold light, reed silhouettes soft-edged, mudflat sheen catching the brightest value in frame"
+                }
+              ]
+            ],
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22b23c1d91-6045-5dda-ae64-c0b28dbdc9ce%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "6e10d6e5-14b6-555e-9816-d380c4319e2a",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 1840,
+            "y": 0
+          },
+          "data": {
+            "label": "道具-旧皮箱",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "A weathered Republican-era Chinese leather suitcase at handheld scale, worn brown cowhide with whitened corners, two square verdigris brass clasps, broken handle wrapped in indigo cloth, isolated on a pure white background, no people, no hands\n避免：people, human figures, characters, crowds, silhouettes of people, hands, fingers, plastic CG look, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "A weathered Republican-era Chinese leather suitcase at handheld scale, worn brown cowhide with whitened corners, two square verdigris brass clasps, broken handle wrapped in indigo cloth, isolated on a pure white background, no people, no hands"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：people, human figures, characters, crowds, silhouettes of people, hands, fingers, plastic CG look, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature"
+                }
+              ]
+            ],
+            "ratio": "1:1"
+          }
+        },
+        {
+          "id": "b23a895d-711b-5c6b-ac6f-f5a4d8ead08a",
+          "type": "remote-imageGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 1840,
+            "y": 395
+          },
+          "data": {
+            "label": "道具-县衙旧砚",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "STRING"
+                ],
+                "label": "图片、文本输入"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "An old Chinese ink stone at handheld scale, dark grey duan stone with a chipped upper corner, moon-shaped wear ring around the ink pool, two lines of carved official seal characters on its underside, isolated on a pure white background, no people, no hands\n避免：people, human figures, characters, crowds, silhouettes of people, hands, fingers, plastic CG look, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "An old Chinese ink stone at handheld scale, dark grey duan stone with a chipped upper corner, moon-shaped wear ring around the ink pool, two lines of carved official seal characters on its underside, isolated on a pure white background, no people, no hands"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "避免：people, human figures, characters, crowds, silhouettes of people, hands, fingers, plastic CG look, oversaturated colours, warped perspective, melted geometry, floating objects, text, watermark, signature"
+                }
+              ]
+            ],
+            "ratio": "1:1"
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "514d26cf-fedb-528f-9d43-8e77025e3b09",
+          "source": "2e9444c0-1459-55eb-967a-235b0fe03d24",
+          "sourceHandle": "image",
+          "target": "bad35207-caa6-545f-8526-70f6167412c6",
+          "targetHandle": "in"
+        },
+        {
+          "id": "d0f073be-e320-5a39-8826-fad9bd5d4cf1",
+          "source": "2e9444c0-1459-55eb-967a-235b0fe03d24",
+          "sourceHandle": "image",
+          "target": "60c893cb-9e01-5668-a629-e845b9898b32",
+          "targetHandle": "in"
+        },
+        {
+          "id": "acc94838-078d-5974-8895-4f981fb7da04",
+          "source": "fdeb33c7-3a21-5a8e-b240-34ea1048691a",
+          "sourceHandle": "image",
+          "target": "6a3b8c43-b82b-5f77-b4ca-e8686549968e",
+          "targetHandle": "in"
+        },
+        {
+          "id": "ab3e2e90-15c3-5758-bd37-ffb78982ba62",
+          "source": "b23c1d91-6045-5dda-ae64-c0b28dbdc9ce",
+          "sourceHandle": "image",
+          "target": "9bf1f27d-167b-5761-80be-86c8d5cbaafe",
+          "targetHandle": "in"
+        }
+      ]
+    },
+    "画布/分集/第001集.json": {
+      "nodes": [
+        {
+          "id": "a3d89868-b7ff-58db-ab54-cdd90ee87be6",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "data": {
+            "label": "引用-场景-渡口栈桥",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 395
+          },
+          "data": {
+            "label": "引用-角色-沈知微",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "a612f976-2429-597c-beb0-bf5e05885973",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 790
+          },
+          "data": {
+            "label": "引用-角色-老周",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 1185
+          },
+          "data": {
+            "label": "引用-角色-胡二爷",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 1580
+          },
+          "data": {
+            "label": "引用-道具-旧皮箱",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "378bb639-069f-50a5-a717-2686452065e5",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 0
+          },
+          "data": {
+            "label": "第1集-E01-01",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡口栈桥\n{{ref 2}} = 引用-角色-沈知微\n{{ref 3}} = 引用-角色-老周\n{{ref 4}} = 引用-角色-胡二爷\n{{ref 5}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n开场只有沈知微一人：她在画面中央偏右，背对镜头沿河岸土路向前跑，前方约三十步外是还没露出雾的栈桥。老周在栈桥尽头的船头，胡二爷随后从跳板远端赶来，两人不在同一画面。\n\n【镜头1】\n焦距：35mm 广角，中景深\n机位：年轻女子 + 背后平视跟随\n构图：中心构图\n运镜：跟拍\n景别：中景\n画面：镜头从背后平稳跟随一名穿素色旗袍的年轻女子，她双臂把旧皮箱紧紧搂在胸前，沿泥泞河岸快步小跑，鞋底踏过水洼溅起水花，背影渐渐被浓雾吞没\n台词：{}\n视线落点：前方雾中\n焦点：锁定年轻女子背影与怀中皮箱\n稳定性：微晃\n\n【镜头2】\n焦距：24mm 广角，深景深\n机位：栈桥全貌 + 平视远眺\n构图：引导线构图\n运镜：固定镜头\n景别：大远景\n画面：固定镜头远望，木栈桥从浓雾里慢慢显出轮廓，一名戴斗笠披蓑衣的老船夫蹲在船头，嘴边旱烟的火光一明一暗\n台词：{}\n视线落点：老船夫低头看着烟锅\n焦点：锁定船头的老船夫剪影\n稳定性：稳定\n音效：远处梆子声闷闷响两下\n\n【镜头3】\n焦距：35mm 广角，中景深\n机位：老船夫 + 平视正侧面\n构图：三分法\n运镜：固定镜头\n景别：全景\n画面：固定镜头，老船夫从船头站起身，一手拢在嘴边，扯着嗓子不急不躁地朝雾里的岸上吆喝\n台词：{上船喽——过河的抓紧，雾要变天。}\n视线落点：岸上雾中\n焦点：锁定老船夫上半身\n稳定性：稳定\n\n【镜头4】\n焦距：35mm 广角，中景深\n机位：中年货郎 + 侧面平视跟随\n构图：对角线构图\n运镜：跟拍\n景别：全景\n画面：镜头平稳跟随一名挑着货担的中年货郎，他气喘吁吁地沿湿滑跳板快步赶来，扁担随脚步上下颤动，边走边扬声招呼\n台词：{等等二爷我！这雾天赶船，命都得跑掉半条。}\n视线落点：船头\n焦点：锁定中年货郎和货担\n稳定性：微晃\n\n<雾里河岸土路上急促的脚步踩着水洼，河水轻拍栈桥木桩，远处梆子敲了两下，随后跳板上货筐晃动的声响由远及近>\n（极慢速度的低音弦乐持续音，几乎贴着寂静）\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡口栈桥"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 5}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "开场只有沈知微一人：她在画面中央偏右，背对镜头沿河岸土路向前跑，前方约三十步外是还没露出雾的栈桥。老周在栈桥尽头的船头，胡二爷随后从跳板远端赶来，两人不在同一画面。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：年轻女子 + 背后平视跟随"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：跟拍"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头从背后平稳跟随一名穿素色旗袍的年轻女子，她双臂把旧皮箱紧紧搂在胸前，沿泥泞河岸快步小跑，鞋底踏过水洼溅起水花，背影渐渐被浓雾吞没"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：前方雾中"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定年轻女子背影与怀中皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：微晃"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：24mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：栈桥全貌 + 平视远眺"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：引导线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：大远景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头远望，木栈桥从浓雾里慢慢显出轮廓，一名戴斗笠披蓑衣的老船夫蹲在船头，嘴边旱烟的火光一明一暗"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：老船夫低头看着烟锅"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定船头的老船夫剪影"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "音效：远处梆子声闷闷响两下"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：老船夫 + 平视正侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，老船夫从船头站起身，一手拢在嘴边，扯着嗓子不急不躁地朝雾里的岸上吆喝"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{上船喽——过河的抓紧，雾要变天。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：岸上雾中"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫上半身"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头4】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 侧面平视跟随"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：对角线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：跟拍"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头平稳跟随一名挑着货担的中年货郎，他气喘吁吁地沿湿滑跳板快步赶来，扁担随脚步上下颤动，边走边扬声招呼"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{等等二爷我！这雾天赶船，命都得跑掉半条。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：船头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎和货担"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：微晃"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<雾里河岸土路上急促的脚步踩着水洼，河水轻拍栈桥木桩，远处梆子敲了两下，随后跳板上货筐晃动的声响由远及近>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "（极慢速度的低音弦乐持续音，几乎贴着寂静）"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ]
+            ],
+            "duration": 15,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22a3d89868-b7ff-58db-ab54-cdd90ee87be6%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 560
+          },
+          "data": {
+            "label": "第1集-E01-02",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡口栈桥\n{{ref 2}} = 引用-角色-老周\n{{ref 3}} = 引用-角色-胡二爷\n{{ref 4}} = 引用-角色-沈知微\n{{ref 5}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n开场在船舷边：胡二爷挑着货担在画面左侧踏上船，老周在右侧伸手去接担子，两人相距约一步，都面朝船舱入口。沈知微此时还在岸上，最后一镜才上跳板。\n\n【镜头1】\n焦距：50mm 标准，中景深\n机位：双人 + 平视侧面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，一名中年货郎挑着货担跨上船舷，一名老船夫顺势伸手搭住扁担，两人合力把货担缓缓放进船舱\n台词：{}\n视线落点：脚下的货担\n焦点：锁定两人交接货担的手\n稳定性：稳定\n音效：货筐落地，小铜铃轻响一声\n\n【镜头2】\n焦距：50mm 标准，中浅景深\n机位：老船夫 + 平视正面\n构图：框架构图\n运镜：固定镜头\n景别：中景\n画面：固定镜头，老船夫站在船舱入口，旱烟叼在嘴里没拿下来，面朝舱内慢悠悠开口，语气干巴巴的\n台词：{胡二爷，你这担子比人金贵。}\n视线落点：舱内的货担\n焦点：锁定老船夫面部\n稳定性：稳定\n\n【镜头3】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎坐在长凳上，一手拍着身边的货筐，咧嘴笑着回话\n台词：{那可不——吃饭的家伙，比命金贵。}\n视线落点：船舱入口的老船夫\n焦点：锁定中年货郎上半身\n稳定性：稳定\n\n【镜头4】\n焦距：85mm 长焦，浅景深\n机位：年轻女子 + 平视正侧面\n构图：中心构图\n运镜：推镜\n景别：特写\n画面：镜头小幅缓推，一名穿素色旗袍的年轻女子最后一个踏上湿滑的跳板，旧皮箱抱在怀里，推近到她攥着箱沿、用力到发白的指节\n台词：{}\n视线落点：脚下的跳板\n焦点：锁定攥着箱沿的双手\n稳定性：稳定\n\n<货筐落进船舱时吱嘎作响，小铜铃轻轻一响，木头闷声相碰，湿跳板上传来缓慢小心的脚步声>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡口栈桥"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 5}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "开场在船舷边：胡二爷挑着货担在画面左侧踏上船，老周在右侧伸手去接担子，两人相距约一步，都面朝船舱入口。沈知微此时还在岸上，最后一镜才上跳板。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：双人 + 平视侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，一名中年货郎挑着货担跨上船舷，一名老船夫顺势伸手搭住扁担，两人合力把货担缓缓放进船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：脚下的货担"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定两人交接货担的手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "音效：货筐落地，小铜铃轻响一声"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：老船夫 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：框架构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，老船夫站在船舱入口，旱烟叼在嘴里没拿下来，面朝舱内慢悠悠开口，语气干巴巴的"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{胡二爷，你这担子比人金贵。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：舱内的货担"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎坐在长凳上，一手拍着身边的货筐，咧嘴笑着回话"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{那可不——吃饭的家伙，比命金贵。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：船舱入口的老船夫"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎上半身"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头4】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：年轻女子 + 平视正侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：推镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头小幅缓推，一名穿素色旗袍的年轻女子最后一个踏上湿滑的跳板，旧皮箱抱在怀里，推近到她攥着箱沿、用力到发白的指节"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：脚下的跳板"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定攥着箱沿的双手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<货筐落进船舱时吱嘎作响，小铜铃轻轻一响，木头闷声相碰，湿跳板上传来缓慢小心的脚步声>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 14,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22a3d89868-b7ff-58db-ab54-cdd90ee87be6%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 1120
+          },
+          "data": {
+            "label": "第1集-E01-03",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡口栈桥\n{{ref 2}} = 引用-角色-沈知微\n{{ref 3}} = 引用-角色-老周\n{{ref 4}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n船头附近：老周在画面左侧低头盘缆绳，沈知微在右侧约两步外站着，抱着皮箱面朝他，身后是一片白雾。\n\n【镜头1】\n焦距：50mm 标准，中景深\n机位：双人 + 平视侧面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，老船夫低头一圈圈盘着缆绳，眼皮都没抬，随口撂下一句；旁边抱着皮箱的年轻女子站着没动\n台词：{箱子沉就搁船头，掉河里我可不捞。}\n视线落点：老船夫看缆绳，年轻女子看老船夫\n焦点：锁定老船夫手中的缆绳\n稳定性：稳定\n\n【镜头2】\n焦距：85mm 长焦，浅景深\n机位：年轻女子 + 平视正面\n构图：中心构图\n运镜：推镜\n景别：特写\n画面：镜头小幅缓推，年轻女子双臂把皮箱又收紧一些，下巴微抬，声音很轻却不留商量地回答\n台词：{不劳烦。它跟我。}\n视线落点：对方面部\n焦点：锁定年轻女子面部\n稳定性：稳定\n\n【镜头3】\n焦距：35mm 广角，中景深\n机位：船头 + 平视侧面\n构图：对角线构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头，老船夫看了她一眼没有说话，转身把跳板拖上船\n台词：{}\n视线落点：老船夫先看年轻女子，再看跳板\n焦点：锁定老船夫\n稳定性：稳定\n\n【镜头4】\n焦距：35mm 广角，深景深\n机位：船尾 + 平视\n构图：引导线构图\n运镜：拉镜\n景别：全景\n画面：镜头缓缓拉开，老船夫把竹篙往岸上一点，扬声招呼坐稳，渡船向前滑出，栈桥的灯笼慢慢隐进雾里\n台词：{坐稳——开船。}\n视线落点：前方河面\n焦点：锁定船头撑篙的老船夫\n稳定性：稳定\n\n<缆绳纤维擦过船舷，竹篙点岸一声闷响后沉沉一撑，跳板木板被拖上船>\n（稀疏的低音弦乐慢速淡入，几拍后又淡出）\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡口栈桥"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "船头附近：老周在画面左侧低头盘缆绳，沈知微在右侧约两步外站着，抱着皮箱面朝他，身后是一片白雾。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：双人 + 平视侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，老船夫低头一圈圈盘着缆绳，眼皮都没抬，随口撂下一句；旁边抱着皮箱的年轻女子站着没动"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{箱子沉就搁船头，掉河里我可不捞。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：老船夫看缆绳，年轻女子看老船夫"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫手中的缆绳"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：年轻女子 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：推镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头小幅缓推，年轻女子双臂把皮箱又收紧一些，下巴微抬，声音很轻却不留商量地回答"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{不劳烦。它跟我。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：对方面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定年轻女子面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：船头 + 平视侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：对角线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，老船夫看了她一眼没有说话，转身把跳板拖上船"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：老船夫先看年轻女子，再看跳板"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头4】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：船尾 + 平视"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：引导线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：拉镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头缓缓拉开，老船夫把竹篙往岸上一点，扬声招呼坐稳，渡船向前滑出，栈桥的灯笼慢慢隐进雾里"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{坐稳——开船。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：前方河面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定船头撑篙的老船夫"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<缆绳纤维擦过船舷，竹篙点岸一声闷响后沉沉一撑，跳板木板被拖上船>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "（稀疏的低音弦乐慢速淡入，几拍后又淡出）"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 12,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22a3d89868-b7ff-58db-ab54-cdd90ee87be6%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "588886ab-495c-548e-9889-d356d37b4c67",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 1975
+          },
+          "data": {
+            "label": "引用-场景-渡船船舱",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "9a9957bd-aad3-57cd-a215-07995ada24a9",
+          "type": "remote-imageNode",
+          "initialized": false,
+          "position": {
+            "x": 0,
+            "y": 2370
+          },
+          "data": {
+            "label": "引用-角色-陆行远",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": "IMAGE",
+                "label": "来源图片"
+              },
+              {
+                "id": "image",
+                "type": "source",
+                "dataType": "IMAGE",
+                "label": "图片输出"
+              }
+            ],
+            "outputs": {}
+          }
+        },
+        {
+          "id": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 1680
+          },
+          "data": {
+            "label": "第1集-E01-04",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-陆行远\n{{ref 3}} = 引用-角色-胡二爷\n{{ref 4}} = 引用-角色-沈知微\n{{ref 5}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n昏暗船舱里：陆行远在画面左侧靠舱壁坐，右手揣在大衣口袋里；胡二爷坐在右侧，货担占了半条长凳，两人相隔约一臂。舱口在画面深处，沈知微从那里进来。\n\n【镜头1】\n焦距：24mm 广角，深景深\n机位：船舱 + 平视正面\n构图：对称构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头，昏暗的船舱随水轻轻摇晃，货担占去半条长凳，一名穿深色长大衣的男子靠着舱壁坐着，右手揣在口袋里一动不动\n台词：{}\n视线落点：长大衣男子望着舱外\n焦点：锁定长大衣男子\n稳定性：稳定\n\n【镜头2】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎咧嘴笑着朝过道探过身，自来熟地搭话\n台词：{姑娘头回走这条水路吧？我一看一个准。}\n视线落点：舱口进来的年轻女子\n焦点：锁定中年货郎面部\n稳定性：稳定\n\n【镜头3】\n焦距：35mm 广角，中景深\n机位：年轻女子 + 侧面平视跟随\n构图：引导线构图\n运镜：跟拍\n景别：中景\n画面：镜头平稳跟随年轻女子穿过船舱，她没有接话，径直走到离所有人最远的角落坐下，把皮箱搁在膝上，双臂环住\n台词：{}\n视线落点：舱角的空位\n焦点：锁定年轻女子和怀中皮箱\n稳定性：微晃\n\n<船身随水缓慢吱呀，船底下水流滑过，货担绳索窸窣，甲板上轻轻的脚步声后长凳一响>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-陆行远"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 5}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "昏暗船舱里：陆行远在画面左侧靠舱壁坐，右手揣在大衣口袋里；胡二爷坐在右侧，货担占了半条长凳，两人相隔约一臂。舱口在画面深处，沈知微从那里进来。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：24mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：船舱 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：对称构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，昏暗的船舱随水轻轻摇晃，货担占去半条长凳，一名穿深色长大衣的男子靠着舱壁坐着，右手揣在口袋里一动不动"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：长大衣男子望着舱外"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定长大衣男子"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎咧嘴笑着朝过道探过身，自来熟地搭话"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{姑娘头回走这条水路吧？我一看一个准。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：舱口进来的年轻女子"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：年轻女子 + 侧面平视跟随"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：引导线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：跟拍"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头平稳跟随年轻女子穿过船舱，她没有接话，径直走到离所有人最远的角落坐下，把皮箱搁在膝上，双臂环住"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：舱角的空位"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定年轻女子和怀中皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：微晃"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<船身随水缓慢吱呀，船底下水流滑过，货担绳索窸窣，甲板上轻轻的脚步声后长凳一响>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 11,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%229a9957bd-aad3-57cd-a215-07995ada24a9%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "c878118b-b103-52d5-9db0-639db30fb212",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 2240
+          },
+          "data": {
+            "label": "第1集-E01-05",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-胡二爷\n{{ref 3}} = 引用-角色-沈知微\n{{ref 4}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n胡二爷在画面左侧从长凳上半起身，沈知微在右侧舱角坐着、皮箱搁在膝上，两人相距约两步，面对面。\n\n【镜头1】\n焦距：85mm 长焦，浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：特写\n画面：固定镜头，中年货郎从长凳上半欠起身，笑得热络，眼睛却在打量对面，追着又问一句\n台词：{城里亲戚接站，还是投店？二爷我熟门熟路。}\n视线落点：对面的年轻女子\n焦点：锁定中年货郎面部\n稳定性：稳定\n\n【镜头2】\n焦距：85mm 长焦，浅景深\n机位：年轻女子 + 平视正面\n构图：中心构图\n运镜：固定镜头\n景别：特写\n画面：固定镜头，年轻女子垂着眼没有抬头，双臂仍环着膝上的皮箱，语气平淡地回绝\n台词：{借过就好，不敢劳动。}\n视线落点：膝上的皮箱\n焦点：锁定年轻女子面部\n稳定性：稳定\n\n【镜头3】\n焦距：50mm 标准，中浅景深\n机位：双人 + 平视侧面\n构图：对角线构图\n运镜：推镜\n景别：中景\n画面：镜头小幅缓推，中年货郎笑得更开，一边说一边把手伸向年轻女子膝上的皮箱，画面随之收紧\n台词：{嗨，出门在外别客气——箱子给我，搁上头稳当。}\n视线落点：中年货郎看皮箱\n焦点：锁定伸向皮箱的手\n稳定性：稳定\n\n<长凳被起身带得一刮，窄船舱里衣料窸窣，船身继续在流水上缓缓吱呀>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "胡二爷在画面左侧从长凳上半起身，沈知微在右侧舱角坐着、皮箱搁在膝上，两人相距约两步，面对面。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎从长凳上半欠起身，笑得热络，眼睛却在打量对面，追着又问一句"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{城里亲戚接站，还是投店？二爷我熟门熟路。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：对面的年轻女子"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：年轻女子 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，年轻女子垂着眼没有抬头，双臂仍环着膝上的皮箱，语气平淡地回绝"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{借过就好，不敢劳动。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：膝上的皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定年轻女子面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：双人 + 平视侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：对角线构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：推镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头小幅缓推，中年货郎笑得更开，一边说一边把手伸向年轻女子膝上的皮箱，画面随之收紧"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{嗨，出门在外别客气——箱子给我，搁上头稳当。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：中年货郎看皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定伸向皮箱的手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<长凳被起身带得一刮，窄船舱里衣料窸窣，船身继续在流水上缓缓吱呀>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 13,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 2800
+          },
+          "data": {
+            "label": "第1集-E01-06",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-沈知微\n{{ref 3}} = 引用-角色-胡二爷\n{{ref 4}} = 引用-角色-老周\n{{ref 5}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n沈知微在画面右侧坐着，皮箱在膝上；胡二爷在左侧，手悬在皮箱上方约一掌处；老周在画面深处舱口外的船头，背对船舱撑篙。\n\n【镜头1】\n焦距：100mm 微距，极浅景深\n机位：箱盖 + 俯视 30°\n构图：中心构图\n运镜：固定镜头\n景别：特写\n画面：固定镜头，一只手猛地按住皮箱箱盖，把铜扣压在指下，又快又重；画面边缘另一只伸过来的手僵住\n台词：{}\n视线落点：不露脸\n焦点：锁定按在箱盖上的手\n稳定性：稳定\n音效：手掌拍在皮面上的一声闷响\n\n【镜头2】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，满舱的闲谈声一下停了，中年货郎的手僵在半空，脸上的笑慢慢僵住\n台词：{}\n视线落点：按住皮箱的那只手\n焦点：锁定中年货郎面部\n稳定性：稳定\n\n【镜头3】\n焦距：35mm 广角，深景深\n机位：舱口 + 平视望向船头\n构图：框架构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头，从舱口望向船头，老船夫手里的竹篙不停，头也不回，不紧不慢地撂下一句规矩\n台词：{船上有个规矩——不问来路，不碰行李。}\n视线落点：前方河面\n焦点：锁定船头撑篙的老船夫\n稳定性：稳定\n\n【镜头4】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎讪讪地把手缩回来，点了两下头，挤着赔笑嘟囔\n台词：{是是，二爷我多嘴，多嘴。}\n视线落点：自己收回的手\n焦点：锁定中年货郎上半身\n稳定性：稳定\n\n<手掌拍在皮面上的清脆一声划破船舱，随即一片寂静，船头竹篙一下下入水、滴水>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 5}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "沈知微在画面右侧坐着，皮箱在膝上；胡二爷在左侧，手悬在皮箱上方约一掌处；老周在画面深处舱口外的船头，背对船舱撑篙。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：100mm 微距，极浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：箱盖 + 俯视 30°"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，一只手猛地按住皮箱箱盖，把铜扣压在指下，又快又重；画面边缘另一只伸过来的手僵住"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：不露脸"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定按在箱盖上的手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "音效：手掌拍在皮面上的一声闷响"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，满舱的闲谈声一下停了，中年货郎的手僵在半空，脸上的笑慢慢僵住"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：按住皮箱的那只手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：舱口 + 平视望向船头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：框架构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，从舱口望向船头，老船夫手里的竹篙不停，头也不回，不紧不慢地撂下一句规矩"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{船上有个规矩——不问来路，不碰行李。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：前方河面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定船头撑篙的老船夫"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头4】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎讪讪地把手缩回来，点了两下头，挤着赔笑嘟囔"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{是是，二爷我多嘴，多嘴。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：自己收回的手"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎上半身"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<手掌拍在皮面上的清脆一声划破船舱，随即一片寂静，船头竹篙一下下入水、滴水>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 12,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "ed0a38db-cdc0-5295-b8a0-d27afad9ee79",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 3360
+          },
+          "data": {
+            "label": "第1集-E01-07",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-胡二爷\n{{ref 3}} = 引用-角色-老周\n\n【人物关系与构图逻辑】\n渡船行到河心：老周在画面左侧船头站着撑篙，背对船舱；胡二爷在右侧船舱里坐不住地东张西望，两人相距约五步。\n\n【镜头1】\n焦距：24mm 广角，深景深\n机位：河面 + 平视远眺\n构图：三分法\n运镜：固定镜头\n景别：大远景\n画面：固定镜头远望河心，雾贴着水面走，渡船只是一道暗影，船头撑篙的身影一动不动，船舱里一个坐不住的身影在张望\n台词：{}\n视线落点：中年货郎四处张望\n焦点：锁定河心的渡船\n稳定性：稳定\n\n【镜头2】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎坐不住，左右张望了一圈，扭头朝船头没话找话地喊\n台词：{老周，今儿这雾邪性，走得完吗？}\n视线落点：船头方向\n焦点：锁定中年货郎面部\n稳定性：稳定\n\n【镜头3】\n焦距：35mm 广角，中景深\n机位：老船夫 + 背后平视\n构图：中心构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头对着船头，老船夫背对镜头，竹篙一起一落没有停，头也不回，稳稳地答了一句\n台词：{走了四十年，没有走不完的河。}\n视线落点：前方河面\n焦点：锁定老船夫背影\n稳定性：稳定\n\n<竹篙缓慢均匀地入水出水，雾里闷住的涟漪沿船身散开，货郎挪动身子时货担绳子吱的一声>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "渡船行到河心：老周在画面左侧船头站着撑篙，背对船舱；胡二爷在右侧船舱里坐不住地东张西望，两人相距约五步。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：24mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：河面 + 平视远眺"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：大远景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头远望河心，雾贴着水面走，渡船只是一道暗影，船头撑篙的身影一动不动，船舱里一个坐不住的身影在张望"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：中年货郎四处张望"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定河心的渡船"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎坐不住，左右张望了一圈，扭头朝船头没话找话地喊"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{老周，今儿这雾邪性，走得完吗？}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：船头方向"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎面部"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：老船夫 + 背后平视"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头对着船头，老船夫背对镜头，竹篙一起一落没有停，头也不回，稳稳地答了一句"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{走了四十年，没有走不完的河。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：前方河面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫背影"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<竹篙缓慢均匀地入水出水，雾里闷住的涟漪沿船身散开，货郎挪动身子时货担绳子吱的一声>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ]
+            ],
+            "duration": 11,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 3920
+          },
+          "data": {
+            "label": "第1集-E01-08",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-陆行远\n{{ref 3}} = 引用-角色-胡二爷\n{{ref 4}} = 引用-角色-老周\n\n【人物关系与构图逻辑】\n船舱里：胡二爷在画面右侧转身面向左侧的陆行远，两人相距约一臂；陆行远靠舱壁坐，脸朝舱口外的雾，右手在大衣口袋里。老周在画面深处的船头。\n\n【镜头1】\n焦距：50mm 标准，中景深\n机位：双人 + 平视侧面\n构图：三分法\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎转向穿深色长大衣的男子，堆着笑试探着问，对方的目光仍落在舱口外的雾里\n台词：{这位先生面生得很，也是去县城？}\n视线落点：中年货郎看长大衣男子，长大衣男子看舱外\n焦点：锁定中年货郎\n稳定性：稳定\n\n【镜头2】\n焦距：85mm 长焦，浅景深\n机位：长大衣男子 + 平视正侧面\n构图：三分法\n运镜：固定镜头\n景别：特写\n画面：固定镜头，长大衣男子极轻地点了一下头，眼睛始终没离开舱外的雾\n台词：{}\n视线落点：舱口外的雾\n焦点：锁定长大衣男子的眼睛\n稳定性：稳定\n\n【镜头3】\n焦距：50mm 标准，中浅景深\n机位：中年货郎 + 平视正面\n构图：中心构图\n运镜：固定镜头\n景别：中景\n画面：固定镜头，中年货郎冲满舱的人夸张地耸了耸肩，两手一摊，自讨没趣地叹气\n台词：{得，一船的闷葫芦，就我一个人长嘴。}\n视线落点：满舱的人\n焦点：锁定中年货郎上半身\n稳定性：稳定\n\n【镜头4】\n焦距：35mm 广角，深景深\n机位：舱内 + 平视望向船头\n构图：框架构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头，从船舱里望向船头，老船夫的背影轻轻一抖笑了一声，没有回头，船底的水声一下一下\n台词：{}\n视线落点：前方河面\n焦点：锁定老船夫背影\n稳定性：稳定\n\n<船身在缓慢的起伏里低低作响，耸肩时一声短促的出气，船头传来一声干笑，船底的水一下一下耐心地敲着>\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-陆行远"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-老周"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "船舱里：胡二爷在画面右侧转身面向左侧的陆行远，两人相距约一臂；陆行远靠舱壁坐，脸朝舱口外的雾，右手在大衣口袋里。老周在画面深处的船头。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：双人 + 平视侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎转向穿深色长大衣的男子，堆着笑试探着问，对方的目光仍落在舱口外的雾里"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{这位先生面生得很，也是去县城？}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：中年货郎看长大衣男子，长大衣男子看舱外"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：长大衣男子 + 平视正侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，长大衣男子极轻地点了一下头，眼睛始终没离开舱外的雾"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：舱口外的雾"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定长大衣男子的眼睛"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：50mm 标准，中浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：中年货郎 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：中景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，中年货郎冲满舱的人夸张地耸了耸肩，两手一摊，自讨没趣地叹气"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{得，一船的闷葫芦，就我一个人长嘴。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：满舱的人"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定中年货郎上半身"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头4】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：35mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：舱内 + 平视望向船头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：框架构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，从船舱里望向船头，老船夫的背影轻轻一抖笑了一声，没有回头，船底的水声一下一下"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：前方河面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定老船夫背影"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<船身在缓慢的起伏里低低作响，耸肩时一声短促的出气，船头传来一声干笑，船底的水一下一下耐心地敲着>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 14,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%229a9957bd-aad3-57cd-a215-07995ada24a9%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D",
+                "%5B%22a612f976-2429-597c-beb0-bf5e05885973%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "77e5539c-a804-59c7-a627-13cff2cb1897",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 4480
+          },
+          "data": {
+            "label": "第1集-E01-09",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-陆行远\n{{ref 3}} = 引用-角色-沈知微\n{{ref 4}} = 引用-角色-胡二爷\n\n【人物关系与构图逻辑】\n陆行远在画面左侧靠舱壁坐，右手揣在大衣口袋里；沈知微在右侧舱角抱着皮箱；胡二爷在两人之间的长凳上，三人各隔约两步，谁都没看谁。\n\n【镜头1】\n焦距：100mm 微距，极浅景深\n机位：大衣口袋 + 平视\n构图：中心构图\n运镜：推镜\n景别：特写\n画面：镜头小幅缓推，从胸口高度推向深色大衣的口袋，布料随着藏在里面的手攥紧而绷了一下\n台词：{}\n视线落点：不露脸\n焦点：锁定绷紧的口袋布料\n稳定性：稳定\n\n【镜头2】\n焦距：85mm 长焦，浅景深\n机位：长大衣男子 + 平视正侧面\n构图：三分法\n运镜：固定镜头\n景别：特写\n画面：固定镜头，长大衣男子半张脸隐在阴影里，嘴唇几乎不动，压低声音像在自言自语\n台词：{这条河，今晚怕是不太平。}\n视线落点：舱外的雾\n焦点：锁定长大衣男子嘴唇\n稳定性：稳定\n\n【镜头3】\n焦距：24mm 广角，深景深\n机位：船舱 + 平视正面\n构图：对称构图\n运镜：固定镜头\n景别：全景\n画面：固定镜头，船舱里三个人都一动不动，雾深处闷闷传来一声汽笛，谁也没有接话\n台词：{}\n视线落点：各自低着头\n焦点：锁定船舱全貌\n稳定性：稳定\n音效：雾深处一声闷闷的汽笛\n\n<攥紧的手让大衣布料轻轻一响，船底下流水低低地涌过，远处一声闷住的汽笛在雾里滚过>\n（一个持续的低音大提琴长音，速度很慢，结束前淡出）\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕\n2. 视频全程禁止出现外形、着装、配饰完全一致的人物",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-陆行远"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 4}} = 引用-角色-胡二爷"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "陆行远在画面左侧靠舱壁坐，右手揣在大衣口袋里；沈知微在右侧舱角抱着皮箱；胡二爷在两人之间的长凳上，三人各隔约两步，谁都没看谁。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：100mm 微距，极浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：大衣口袋 + 平视"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：推镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头小幅缓推，从胸口高度推向深色大衣的口袋，布料随着藏在里面的手攥紧而绷了一下"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：不露脸"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定绷紧的口袋布料"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：85mm 长焦，浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：长大衣男子 + 平视正侧面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，长大衣男子半张脸隐在阴影里，嘴唇几乎不动，压低声音像在自言自语"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{这条河，今晚怕是不太平。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：舱外的雾"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定长大衣男子嘴唇"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头3】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：24mm 广角，深景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：船舱 + 平视正面"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：对称构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：全景"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，船舱里三个人都一动不动，雾深处闷闷传来一声汽笛，谁也没有接话"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：各自低着头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定船舱全貌"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "音效：雾深处一声闷闷的汽笛"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<攥紧的手让大衣布料轻轻一响，船底下流水低低地涌过，远处一声闷住的汽笛在雾里滚过>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "（一个持续的低音大提琴长音，速度很慢，结束前淡出）"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "2. 视频全程禁止出现外形、着装、配饰完全一致的人物"
+                }
+              ]
+            ],
+            "duration": 9,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%229a9957bd-aad3-57cd-a215-07995ada24a9%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%22b3270f2e-713e-5a19-a7b1-63d80daeafc0%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        },
+        {
+          "id": "f4f337d1-c455-5197-8d59-b51848f433f9",
+          "type": "remote-videoGenerationNode",
+          "initialized": false,
+          "position": {
+            "x": 690,
+            "y": 5040
+          },
+          "data": {
+            "label": "第1集-E01-10",
+            "handles": [
+              {
+                "id": "in",
+                "type": "target",
+                "dataType": [
+                  "IMAGE",
+                  "VIDEO",
+                  "AUDIO",
+                  "STRING"
+                ],
+                "label": "图片、视频、音频、文本输入"
+              },
+              {
+                "id": "video",
+                "type": "source",
+                "dataType": "VIDEO",
+                "label": "视频输出"
+              }
+            ],
+            "outputs": {},
+            "prompt": "{{ref 1}} = 引用-场景-渡船船舱\n{{ref 2}} = 引用-角色-沈知微\n{{ref 3}} = 引用-道具-旧皮箱\n\n【人物关系与构图逻辑】\n沈知微坐在画面右侧的舱角，双臂环着膝上的旧皮箱，皮箱铜扣在画面中央；舱口在画面左侧深处，雾从那里漫进来。\n\n【镜头1】\n焦距：100mm 微距，极浅景深\n机位：皮箱铜扣 + 平视\n构图：中心构图\n运镜：推镜\n景别：大特写\n画面：镜头小幅缓推，贴近皮箱上泛着绿锈的铜扣，年轻女子的双臂紧紧环着箱沿，雾从边缘漫进画面，她始终没有开口\n台词：以画外音说{谁都别碰它。到了县城，它就是我全部的话。}\n视线落点：年轻女子低头看着皮箱\n焦点：锁定铜扣\n稳定性：稳定\n\n【镜头2】\n焦距：100mm 微距，极浅景深\n机位：皮箱铜扣 + 平视\n构图：三分法\n运镜：固定镜头\n景别：大特写\n画面：固定镜头，铜扣闪了一下光，远处虚掉的背景里栈桥的灯缩成豆大的一点黄光，随即熄灭，铜扣的暗光成了画面里最后的亮点\n光影：远处一点暖黄灯光熄灭后只剩铜扣的冷光\n台词：{}\n视线落点：年轻女子低头看着皮箱\n焦点：锁定铜扣，背景灯光虚化\n稳定性：稳定\n\n<渐弱的汽笛回声下流水滑过船底，收紧的手臂让皮面轻轻作响，远处的灯熄灭时船舱一片寂静>\n（稀疏的低音弦乐和一个轻柔的钢琴单音，慢速，随灯灭逐渐归于无声）\n\n【约束】\n1. 保持无字幕，避免生成任何文字或字幕",
+            "promptModel": [
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 1}} = 引用-场景-渡船船舱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 2}} = 引用-角色-沈知微"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "{{ref 3}} = 引用-道具-旧皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【人物关系与构图逻辑】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "沈知微坐在画面右侧的舱角，双臂环着膝上的旧皮箱，皮箱铜扣在画面中央；舱口在画面左侧深处，雾从那里漫进来。"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头1】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：100mm 微距，极浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：皮箱铜扣 + 平视"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：中心构图"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：推镜"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：大特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：镜头小幅缓推，贴近皮箱上泛着绿锈的铜扣，年轻女子的双臂紧紧环着箱沿，雾从边缘漫进画面，她始终没有开口"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：以画外音说{谁都别碰它。到了县城，它就是我全部的话。}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：年轻女子低头看着皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定铜扣"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【镜头2】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦距：100mm 微距，极浅景深"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "机位：皮箱铜扣 + 平视"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "构图：三分法"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "运镜：固定镜头"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "景别：大特写"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "画面：固定镜头，铜扣闪了一下光，远处虚掉的背景里栈桥的灯缩成豆大的一点黄光，随即熄灭，铜扣的暗光成了画面里最后的亮点"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "光影：远处一点暖黄灯光熄灭后只剩铜扣的冷光"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "台词：{}"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "视线落点：年轻女子低头看着皮箱"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "焦点：锁定铜扣，背景灯光虚化"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "稳定性：稳定"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "<渐弱的汽笛回声下流水滑过船底，收紧的手臂让皮面轻轻作响，远处的灯熄灭时船舱一片寂静>"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "（稀疏的低音弦乐和一个轻柔的钢琴单音，慢速，随灯灭逐渐归于无声）"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": ""
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "【约束】"
+                }
+              ],
+              [
+                {
+                  "type": "Write",
+                  "text": "1. 保持无字幕，避免生成任何文字或字幕"
+                }
+              ]
+            ],
+            "duration": 8,
+            "ratio": "16:9",
+            "referenceOrder": {
+              "in": [
+                "%5B%22588886ab-495c-548e-9889-d356d37b4c67%22%2C%22image%22%5D",
+                "%5B%22fd9eeca1-5b1a-5f0c-8399-2706b092edde%22%2C%22image%22%5D",
+                "%5B%2246f91a66-fe05-5470-b22d-c28838b9e647%22%2C%22image%22%5D"
+              ]
+            }
+          }
+        }
+      ],
+      "edges": [
+        {
+          "id": "7dfcb010-fdc7-5ca6-befb-06b368a0bf3a",
+          "source": "a3d89868-b7ff-58db-ab54-cdd90ee87be6",
+          "sourceHandle": "image",
+          "target": "378bb639-069f-50a5-a717-2686452065e5",
+          "targetHandle": "in"
+        },
+        {
+          "id": "794d60a0-be26-5aa6-ae9b-c29da94b0df0",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "378bb639-069f-50a5-a717-2686452065e5",
+          "targetHandle": "in"
+        },
+        {
+          "id": "a93f3659-eb14-56c3-8b09-8395458e1b7f",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "378bb639-069f-50a5-a717-2686452065e5",
+          "targetHandle": "in"
+        },
+        {
+          "id": "e06fe5de-1e84-5459-9428-d108452f3c6a",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "378bb639-069f-50a5-a717-2686452065e5",
+          "targetHandle": "in"
+        },
+        {
+          "id": "d65be763-9fb9-568b-8055-fe6627c90dc7",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "378bb639-069f-50a5-a717-2686452065e5",
+          "targetHandle": "in"
+        },
+        {
+          "id": "a703cb35-de67-51be-bcdd-b33b38a0c053",
+          "source": "a3d89868-b7ff-58db-ab54-cdd90ee87be6",
+          "sourceHandle": "image",
+          "target": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "834dcec0-885e-5ecd-bf5e-186119d9f259",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "02351fbc-4fd8-5183-834b-22550aa2b50b",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "ef0b6c61-894e-5f17-9a03-4f522ab62af0",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "761e6679-7f26-53aa-91e2-98960561f1fe",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "32e30aff-878a-5e27-8191-e83731f3b24c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "ec592b78-2d0a-5eb7-b4b3-386d2cf75df0",
+          "source": "a3d89868-b7ff-58db-ab54-cdd90ee87be6",
+          "sourceHandle": "image",
+          "target": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+          "targetHandle": "in"
+        },
+        {
+          "id": "9dc817c4-6e5a-5c7f-86b3-f60a6a703cd4",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+          "targetHandle": "in"
+        },
+        {
+          "id": "3d6f8b6e-16ab-5cbc-9cad-09f76f7b8b55",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+          "targetHandle": "in"
+        },
+        {
+          "id": "1e0b584c-3fc7-5f20-a3f2-4d40bcd2e16a",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+          "targetHandle": "in"
+        },
+        {
+          "id": "44295717-187b-5a74-9d69-dc8b2671bf8e",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "targetHandle": "in"
+        },
+        {
+          "id": "1d49648e-b052-5f0c-8222-2e170ad77a91",
+          "source": "9a9957bd-aad3-57cd-a215-07995ada24a9",
+          "sourceHandle": "image",
+          "target": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "targetHandle": "in"
+        },
+        {
+          "id": "13182ab8-d78c-5237-9f9c-a1852c7c496d",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "targetHandle": "in"
+        },
+        {
+          "id": "db7af621-df37-5bed-9d7f-11720f93f46c",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "targetHandle": "in"
+        },
+        {
+          "id": "bbae12f9-4a5c-51de-9baa-d43f767cb42e",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+          "targetHandle": "in"
+        },
+        {
+          "id": "b9483bc6-a1c9-5a42-9bf6-5f2615e96afa",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "c878118b-b103-52d5-9db0-639db30fb212",
+          "targetHandle": "in"
+        },
+        {
+          "id": "61cf390a-456d-5fcf-97b4-d3cef6f3951c",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "c878118b-b103-52d5-9db0-639db30fb212",
+          "targetHandle": "in"
+        },
+        {
+          "id": "aa0ffd36-dd03-5fcf-ae5b-9afa184002a7",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "c878118b-b103-52d5-9db0-639db30fb212",
+          "targetHandle": "in"
+        },
+        {
+          "id": "2ef26070-0eb8-5e20-ba99-6333ed05003c",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "c878118b-b103-52d5-9db0-639db30fb212",
+          "targetHandle": "in"
+        },
+        {
+          "id": "4b814856-ca15-5516-b6c2-6e4ca67026c9",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "315f9e51-2a6b-5025-b56b-f8d337d8c6c3",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "e6777d85-d269-5cc9-9418-f6c6118a2d49",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "267de8e8-3de4-5b9a-8cd8-ae44b12c160a",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "b3f44642-3f1c-5f21-875c-eaab17a6a1a5",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+          "targetHandle": "in"
+        },
+        {
+          "id": "56ee934a-3e95-5a19-a09e-eaecfb2d24d4",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "ed0a38db-cdc0-5295-b8a0-d27afad9ee79",
+          "targetHandle": "in"
+        },
+        {
+          "id": "c2c78288-9ded-507f-aa88-715b18f5244b",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "ed0a38db-cdc0-5295-b8a0-d27afad9ee79",
+          "targetHandle": "in"
+        },
+        {
+          "id": "f0f24a50-a532-5e90-bc49-09f5cdf48060",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "ed0a38db-cdc0-5295-b8a0-d27afad9ee79",
+          "targetHandle": "in"
+        },
+        {
+          "id": "282045ec-07bd-57bd-b56f-f8f432bbea93",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+          "targetHandle": "in"
+        },
+        {
+          "id": "42b9b53d-0553-5ef4-86be-6f4bf953fdb1",
+          "source": "9a9957bd-aad3-57cd-a215-07995ada24a9",
+          "sourceHandle": "image",
+          "target": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+          "targetHandle": "in"
+        },
+        {
+          "id": "175f32d6-256b-55dd-9bdf-2f01b07a2e32",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+          "targetHandle": "in"
+        },
+        {
+          "id": "348fa773-92bc-50cb-959d-1136f36294c6",
+          "source": "a612f976-2429-597c-beb0-bf5e05885973",
+          "sourceHandle": "image",
+          "target": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+          "targetHandle": "in"
+        },
+        {
+          "id": "1d6e5e1a-ebf3-5f93-8ce7-2c895e3ee088",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "77e5539c-a804-59c7-a627-13cff2cb1897",
+          "targetHandle": "in"
+        },
+        {
+          "id": "2361d534-e1c2-5b23-841e-af71bfd78000",
+          "source": "9a9957bd-aad3-57cd-a215-07995ada24a9",
+          "sourceHandle": "image",
+          "target": "77e5539c-a804-59c7-a627-13cff2cb1897",
+          "targetHandle": "in"
+        },
+        {
+          "id": "482f5400-81b3-56d0-9141-02e0a18ab225",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "77e5539c-a804-59c7-a627-13cff2cb1897",
+          "targetHandle": "in"
+        },
+        {
+          "id": "60b2bbfc-4305-5100-9d08-2015200fe5f6",
+          "source": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+          "sourceHandle": "image",
+          "target": "77e5539c-a804-59c7-a627-13cff2cb1897",
+          "targetHandle": "in"
+        },
+        {
+          "id": "4890785c-287d-5a3e-9a42-4397fd1632cf",
+          "source": "588886ab-495c-548e-9889-d356d37b4c67",
+          "sourceHandle": "image",
+          "target": "f4f337d1-c455-5197-8d59-b51848f433f9",
+          "targetHandle": "in"
+        },
+        {
+          "id": "29b2410d-1d8f-557d-8ee3-b4db571ce577",
+          "source": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+          "sourceHandle": "image",
+          "target": "f4f337d1-c455-5197-8d59-b51848f433f9",
+          "targetHandle": "in"
+        },
+        {
+          "id": "cfd60260-3773-5f1b-bee1-0e7287bbd149",
+          "source": "46f91a66-fe05-5470-b22d-c28838b9e647",
+          "sourceHandle": "image",
+          "target": "f4f337d1-c455-5197-8d59-b51848f433f9",
+          "targetHandle": "in"
+        }
+      ]
+    }
+  },
+  "texts": {
+    "f7899a8a-2704-5523-ba0a-dac107d3f2c7": "# 故事大纲｜渡口\n\n> 6 集 · 每集 2 分钟 · 民国情感悬疑 · 抽核\n\n## 一句话核心\n\n浓雾渡口的一船陌生人，各自揣着说不出口的来路，雾散之前每个人都得亮一次底。\n\n## 人物\n\n| ID | 姓名 | 定位 | 人物弧 |\n| --- | --- | --- | --- |\n| C01 | 沈知微 | 女主 | 从抱箱防备到当着全船开箱，把最怕被看见的东西变成翻盘的底牌 |\n| C02 | 陆行远 | 男主 | 大衣口袋里的硬东西从威胁翻成守护，最后一集摊开手心 |\n| C03 | 老周 | 关键配角 | 静止的锚，四十年不问客人来路，最后用一句话掀翻全船的谎 |\n| C04 | 胡二爷 | 搅局配角 | 自来熟的货郎，每集戳一个人的痛处，自己反而是藏得最深的 |\n| C05 | 岸上挑灯的更夫 | 渡口的报时人，雾里只闻梆子声 |  |\n\n## 场景\n\n- S01 渡船船舱（主场景）\n- S02 渡口栈桥（主场景）\n- S03 对岸芦苇滩\n\n## 分集梗概\n\n### 第 1 集\n\n浓雾清晨，老周照常开船。沈知微抱着旧皮箱最后一个踏上跳板，找了个离所有人最远的位置坐下。胡二爷自来熟地凑过去搭话，顺势伸手要帮她安置箱子，被她死死按住，船舱里的闲谈声戛然而止。\n\n- 【钩子】皮箱里到底装了什么，值得她指节发白\n- 【悬念】陆行远的右手从上船起就没离开过大衣口袋\n- 出场：沈知微、陆行远、老周、胡二爷｜场景：渡船船舱、渡口栈桥\n\n### 第 2 集\n\n船离岸，雾更浓。胡二爷讲起县城集市的见闻探各人口风，说到县衙最近在查一桩旧案，眼睛却始终瞟着沈知微的皮箱。沈知微低头不接话，陆行远却突然接了一句，说那案子查错了人。\n\n- 【钩子】陆行远为什么替一桩旧案说话\n- 【悬念】胡二爷讲见闻时，指名道姓提了沈家\n- 出场：沈知微、陆行远、胡二爷｜场景：渡船船舱\n\n### 第 3 集\n\n汽笛声从雾里传来，像是巡查船。胡二爷故意高声打趣，说船上要是有人揣着硬家伙可就说不清了。全船的目光落到陆行远的口袋上。他沉默片刻，当众掏出——一方旧砚，砚底刻着县衙的印。\n\n- 【钩子】县衙的砚台为什么在他身上\n- 【悬念】巡查船的汽笛越来越近，老周却把船往雾更深处撑\n- 出场：沈知微、陆行远、老周、胡二爷｜场景：渡船船舱\n\n### 第 4 集\n\n巡查的汽笛擦着船尾远去。陆行远压低声音说明来意：他是替人送还这方砚，物归原主，了一桩冤案的首尾。沈知微听到冤案两个字，抱箱的手臂收得更紧。胡二爷笑着圆场，眼里的算计却淡了下去。\n\n- 【钩子】冤案两个字为什么让她瞬间失态\n- 【悬念】老周在船头咳了一声，像是提醒，又像是警告\n- 出场：沈知微、陆行远、胡二爷｜场景：渡船船舱\n\n### 第 5 集\n\n船过河心，对岸芦苇滩隐约可见。四十年不问客人来路的老周头一次开口，只对沈知微说了一句话：县城北门外早就没有姓沈的接应了。沈知微如遭雷击——她此行投奔的门路，原来是空的。\n\n- 【钩子】老周怎么会知道她要投奔谁\n- 【悬念】胡二爷听到沈姓接应四个字，笑容第一次挂不住\n- 出场：沈知微、老周、胡二爷｜场景：渡船船舱、对岸芦苇滩\n\n### 第 6 集\n\n雾散，岸近。沈知微当着全船打开皮箱：里面是一摞状纸和一块灵位。她不是去投亲，是去翻案。陆行远把旧砚放到状纸上，砚与状纸原属同一桩冤案。胡二爷长叹一声，报出自己在县衙当差的真身份，愿意领他们走侧门。船靠岸，三个人先后踏上跳板，老周撑篙调头，渡口又只剩雾散后的空栈桥。\n\n- 【钩子】状纸和旧砚拼出的到底是谁的冤案\n- 【悬念】胡二爷这个身份是真交底，还是又一层伪装\n- 出场：沈知微、陆行远、老周、胡二爷、岸上挑灯的更夫｜场景：渡船船舱、渡口栈桥\n",
+    "da688fed-f202-5990-a8f0-716ee0ea2bf8": "# 第1集剧本\n\n> 钩子：皮箱里到底装了什么，值得她指节发白\n> 结尾悬念：陆行远的右手从上船起就没离开过大衣口袋\n\n## 第1场 · 渡口栈桥（浓雾清晨）\n\n出场：沈知微、老周、胡二爷\n\n△ 冷开场：一个年轻女人抱着旧皮箱，在雾里的河岸土路上跑，鞋底踏得水洼直响，箱子搂得死紧。雾把她的背影吞掉。\n\n△ 跑到头，雾里才露出栈桥，只剩三步能见。老周把篙靠在船帮上，蹲在船头吧嗒旱烟，梆子声闷得像隔了层棉絮。\n\n**老周**（扯着嗓子，不急不躁）：上船喽——过河的抓紧，雾要变天。\n\n△ 跳板尽头传来担子的响动，胡二爷挑着货担赶上来，嗓门比人先到。\n\n**胡二爷**（气喘吁吁，自来熟）：等等二爷我！这雾天赶船，命都得跑掉半条。\n\n△ 胡二爷挑着担子上船，老周搭手帮他把担子卸进舱里。\n\n**老周**（旱烟不离嘴）：胡二爷，你这担子比人金贵。\n\n**胡二爷**（拍着担子笑）：那可不——吃饭的家伙，比命金贵。\n\n△ 沈知微最后一个踏上跳板。旧皮箱抱在怀里，指节因为用力而发白。\n\n**老周**（眼皮都没抬）：箱子沉就搁船头，掉河里我可不捞。\n\n**沈知微**（声音很轻，却没商量）：不劳烦。它跟我。\n\n△ 老周看了她一眼，没说话。他收了跳板，撑篙离岸，栈桥缩回雾里。\n\n**老周**（篙一点岸）：坐稳——开船。\n\n## 第2场 · 渡船船舱（晨雾）\n\n出场：沈知微、陆行远、老周、胡二爷\n\n△ 舱里坐着两个人。胡二爷的货担占了半条长凳，陆行远靠着舱壁，右手揣在大衣口袋里没动过。\n\n**胡二爷**（自来熟地凑近）：姑娘头回走这条水路吧？我一看一个准。\n\n△ 沈知微拣了离所有人最远的角落坐下，皮箱搁在膝上，双臂环着。\n\n**胡二爷**（追着问）：城里亲戚接站，还是投店？二爷我熟门熟路。\n\n**沈知微**（不抬眼）：借过就好，不敢劳动。\n\n**胡二爷**（笑着，手已经伸向皮箱）：嗨，出门在外别客气——箱子给我，搁上头稳当。\n\n△ 沈知微一把按住箱盖，动作快得吓人。\n\n△ 满舱的闲谈声戛然而止。胡二爷的手停在半空，笑僵在脸上。\n\n**老周**（从船头传来，不紧不慢）：船上有个规矩——不问来路，不碰行李。\n\n**胡二爷**（讪讪收手）：是是，二爷我多嘴，多嘴。\n\n△ 船行河心，雾贴着水皮走。胡二爷东张西望，眼睛老往皮箱上瞟。\n\n**胡二爷**（没话找话）：老周，今儿这雾邪性，走得完吗？\n\n**老周**（篙声不停）：走了四十年，没有走不完的河。\n\n**胡二爷**（转头找新话头）：这位先生面生得很，也是去县城？\n\n△ 陆行远点了点头，眼睛却看着舱外的雾，没接这个话头。\n\n**胡二爷**（自讨没趣）：得，一船的闷葫芦，就我一个人长嘴。\n\n△ 老周在船头笑了一声，没回头。水声在船底一下一下，像谁在数着到岸的时辰。\n\n△ 陆行远从头到尾没看这场热闹，可他口袋里的右手，攥紧了一下。\n\n**陆行远**（低声，几乎自语）：这条河，今晚怕是不太平。\n\n△ 汽笛在雾深处闷闷响了一声，没人接话。\n\n**画外音**（沈知微的心声，冷）：谁都别碰它。到了县城，它就是我全部的话。\n\n△ 雾从舱口漫进来，皮箱上的铜扣绿锈在昏光里一闪。栈桥的灯缩成一粒黄豆，灭了。\n",
+    "206dfc1c-50a5-5719-a4fc-0b00962fe487": "# 第2集剧本\n\n> 钩子：陆行远为什么替一桩旧案说话\n> 结尾悬念：胡二爷讲见闻时，指名道姓提了沈家\n\n## 第1场 · 渡船船舱（晨雾）\n\n出场：沈知微、陆行远、胡二爷\n\n△ 冷开场：船身猛一晃，陆行远的右手在大衣口袋里攥紧了什么，眼睛始终盯着雾外。船进了河心的雾档，胡二爷从货担里摸出一包炒豆，挨个让。\n\n**胡二爷**（殷勤）：尝尝？县城东街炒的，隔着雾都香。\n\n△ 沈知微摇头。陆行远像没听见。胡二爷自己嚼上了，越嚼话越多。\n\n**胡二爷**（眉飞色舞）：这趟进城你们可赶巧了，集市比年根还热闹。\n\n**胡二爷**（压低声音卖关子）：为啥？县衙在翻一桩十年前的旧案，全城都在看戏。\n\n△ 他说着话，眼睛却直往沈知微怀里的皮箱看。\n\n△ 沈知微把箱子抱得更紧，头垂得更低。\n\n**胡二爷**（咂着嘴）：听说当年错杀了人，如今苦主的后人要翻案。\n\n**胡二爷**（叹一声，眼却瞟着皮箱）：沈家啊——城里老户，说没就没了大半门。\n\n△ 沈字一出口，舱里静了一瞬。沈知微垂着头，肩膀绷紧了。\n\n**陆行远**（突然开口）：那案子，查错了人。\n\n△ 满舱静了。胡二爷嚼豆的嘴停在半空。\n\n**胡二爷**（眯起眼）：哟，先生知道内情？\n\n**陆行远**（语气平得像念书）：卷宗我读过。人证是屈打成招，物证对不上。\n\n**胡二爷**（笑里藏针）：卷宗那是衙门里的东西，先生贵姓？\n\n△ 陆行远不答。右手在大衣口袋里，轻轻动了一下。\n\n**陆行远**（不接招）：姓什么不要紧。要紧的是错案就是错案。\n\n△ 沈知微抬起头，第一次正眼看向这个沉默的男人。\n\n**画外音**（沈知微的心声）：他是谁？他为什么替沈家说话？\n\n**胡二爷**（冷不丁转向她）：姑娘也姓沈？我瞧你上船就没说过几句话。\n\n**沈知微**（平静得过了头）：出门人，姓什么都是过客。\n\n**胡二爷**（拍腿笑）：好好好，是二爷我多问。\n\n△ 他笑着，身子却往沈知微那边又挪了半条凳。\n\n**陆行远**（淡淡地）：胡老板，你的豆撒了。\n\n△ 胡二爷低头去捡豆，挪过去的半条凳又缩了回来。\n\n**胡二爷**（捡着豆嘟囔）：邪性，今儿这船上人人都护着人人。\n\n△ 篙声从船头传来，一下，又一下，稳得让人心慌。\n\n**胡二爷**（不死心）：你们说句公道话，那旧案到底冤不冤？\n\n△ 没人回答，只有篙点进水里的闷响。\n\n**胡二爷**（自己接上）：得，问了也白问——这船上的规矩，不问来路。\n\n**陆行远**（低声补了半句）：也不问去处。\n\n△ 陆行远说完这四个字，目光落回舱外。雾里隐约有另一条船的影子，一晃就没了。\n\n**画外音**（胡二爷的心声，算盘声）：一个护箱的，一个懂案的，这船有意思了。\n\n△ 沈知微顺着他的目光看向雾里，什么都没看见，抱箱的手又紧了紧。\n",
+    "fcea8818-067f-5feb-9cab-b5b596f7f55d": "# 第3集剧本\n\n> 钩子：县衙的砚台为什么在他身上\n> 结尾悬念：巡查船的汽笛越来越近，老周却把船往雾更深处撑\n\n## 第1场 · 渡船船舱（晨雾）\n\n出场：沈知微、陆行远、老周、胡二爷\n\n△ 冷开场：一声汽笛从雾里剜出来，陆行远的手猛地按住大衣口袋——那里鼓着一块方硬的轮廓。满舱的人都直了背。\n\n**胡二爷**（竖起耳朵）：听听，这动静——巡查的船。\n\n**老周**（从船头，声音没起伏）：商船改的巡查船，烧的煤不一样，听声就知道。\n\n△ 老周说着，篙却往雾更深的地方点。船身一偏，离了主航道。\n\n**胡二爷**（嗓门故意抬高）：老周哥这是躲啊？咱船上又没人揣着硬家伙。\n\n△ 舱里一下没了声。胡二爷笑着，眼睛盯住了陆行远的大衣口袋。\n\n**胡二爷**（步步紧逼）：先生，你说是不是？这年头查得严，说不清可就麻烦了。\n\n△ 满舱的目光跟着聚过去。那只从上船就没露过面的右手，正揣在口袋里。\n\n△ 沈知微也在看。她自己抱着箱子，最懂被人盯着的滋味，可她还是看了。\n\n**老周**（声音沉了下来）：胡二爷，船上的规矩。\n\n**胡二爷**（摊着手）：规矩是不问来路——可没说不问口袋。汽笛在催了。\n\n△ 汽笛又是一声，近得能听出船头破水的哗声。\n\n**陆行远**（很轻地笑了一下）：好。\n\n△ 陆行远站起身。右手从口袋里抽出来的那一瞬，半船人屏住了呼吸。\n\n△ 摊开的手心里没有枪。是一方旧砚，砚身乌沉，边角磕出了茬口。\n\n**胡二爷**（愣住）：砚台？先生你揣块砚台过河？\n\n**陆行远**（把砚举到光下）：物归原主。就这四个字，多的没有。\n\n△ 他把砚翻过来。砚底一方刻印，在昏光里露出笔画——县衙的印。\n\n**画外音**（胡二爷的心声）：县衙的东西，在一个不肯报姓的人手里。\n\n**沈知微**（声音发紧）：这砚……是县衙大堂的？\n\n**陆行远**（看她一眼）：姑娘认得？\n\n△ 沈知微抱紧箱子别开脸，像是刚才那句话不是她问的。\n\n**胡二爷**（打圆场，眼神却亮了）：认不认得不打紧，打紧的是巡查船来了怎么说。\n\n**老周**（篙不停）：说什么？一船过客，一块石头。\n\n△ 老周把船撑进更浓的雾里，贴着芦苇的影子走。汽笛声从船尾远去。\n\n△ 满舱人不约而同松了口气，又不约而同互相看了一眼——谁也没资格笑话谁。\n\n**胡二爷**（抹了把汗）：邪门，二爷我走这条河十几年，头回盼着雾再大点。\n\n**陆行远**（收砚入袋）：雾大，才好赶路。\n\n**胡二爷**（贼心不死）：先生这砚少说值些银子，就不怕船上有黑手？\n\n**陆行远**（看都不看他）：值钱的不是砚，是砚底那方印。\n\n**胡二爷**（嘿嘿一笑）：那更得小心——有人连印带命一起收。\n\n△ 这话说完，舱里又静了。胡二爷自己也觉出说过了头，讪讪去摸他的炒豆。\n\n**老周**（慢悠悠，像说给全船听）：到岸之前，都是船客。到了岸，各归各命。\n\n△ 陆行远坐回舱壁边，右手又揣回口袋。只是这一次，没人再觉得那里藏着凶器。\n\n**画外音**（沈知微的心声）：县衙的砚，冤案的年份——他是来送东西的，还是来找人的？\n\n△ 船在雾里继续往前走，四下只剩水声。\n",
+    "1d150294-06b4-5d7f-a630-94b175f03c3d": "# 第4集剧本\n\n> 钩子：冤案两个字为什么让她瞬间失态\n> 结尾悬念：老周在船头咳了一声，像是提醒，又像是警告\n\n## 第1场 · 渡船船舱（晨雾）\n\n出场：沈知微、陆行远、胡二爷\n\n△ 冷开场一闪：沈知微抱箱的手臂猛地收紧，指节又白了一层。汽笛声擦着船尾远去，雾里只剩水声，舱里没有一个人放松下来。\n\n**胡二爷**（压低嗓门）：先生，二爷我嘴碎，可眼不瞎——你那砚，来路不一般。\n\n△ 陆行远沉默片刻。开口时，声音压得只有舱内三个人听得见。\n\n**陆行远**（一字一顿）：十年前县衙断过一桩案，断错了。\n\n**陆行远**（手按着口袋）：主审的师爷收了这方砚，案子就歪了。\n\n△ 沈知微把箱子抱得更紧了。\n\n**陆行远**（平静，却压着分量）：师爷临终托我把砚送回去。冤案的首尾，总要有人来了。\n\n**胡二爷**（咂舌）：送回去？衙门的东西送回衙门，那不是自投罗网？\n\n**陆行远**（只有这一句）：砚不回去，案翻不动。\n\n△ 冤案两个字第二次出口的时候，沈知微的指节又掐白了。\n\n**胡二爷**（眼尖）：姑娘？姑娘你脸色不对。\n\n**沈知微**（声音绷着）：舱里闷，没事。\n\n△ 她说没事，人却往角落的阴影里缩了缩，把箱子搂在身前。\n\n△ 胡二爷看看她，又看看陆行远，脸上的笑淡了下来。\n\n**胡二爷**（笑容淡了）：二爷我见天琢磨人心。可有的心，琢磨着琢磨着就不忍了。\n\n**陆行远**（接得很快）：不忍，就别琢磨。\n\n**胡二爷**（摆手苦笑）：做不到啊先生。这一船的心事，比我一担子的货还沉。\n\n△ 船头传来一声咳。不重，却让舱里三个人同时停了话头。\n\n**胡二爷**（压得更低）：听见没？老周哥这一嗓子，是提醒咱们雾里有耳朵。\n\n**陆行远**（摇头）：也可能是警告——别把到不了岸的话说出口。\n\n△ 沈知微在阴影里抬眼，飞快地看了陆行远一眼，又垂下去。\n\n**画外音**（沈知微的心声）：他说的那桩案，年份对得上。可我不能问，一问就全露了。\n\n△ 胡二爷把货担往里挪了挪，给沈知微让出半条凳的空，什么也没说。\n\n△ 让完地方，他自己愣了一下，挠了挠头。\n\n**胡二爷**（给自己找补）：凳子硌得慌，二爷我换个坐处。\n\n△ 没人拆穿他。船身在雾里轻轻晃。\n\n**陆行远**（望着舱外）：雾要到晌午才散。散之前，各自把话想清楚。\n\n**沈知微**（忽然开口）：先生方才说，砚不回去，案翻不动。\n\n**沈知微**（轻得像自言自语）：那要是……有人连状纸都备好了呢？\n\n△ 陆行远猛地转头，第一次正眼看她。\n\n△ 两人对视了一眼，谁都没有再问。\n\n**画外音**（胡二爷的心声）：状纸？好家伙，这船上没有一个人是过客。\n",
+    "289a451a-0ea5-5e36-806a-2af1dd561b25": "# 第5集剧本\n\n> 钩子：老周怎么会知道她要投奔谁\n> 结尾悬念：胡二爷听到沈姓接应四个字，笑容第一次挂不住\n\n## 第1场 · 对岸芦苇滩（薄雾午前）\n\n出场：沈知微、老周\n\n△ 冷开场：撑了四十年篙、从不开口问客的船夫收住篙，转头看向船舷边的沈知微，嘴唇动了。薄雾的午前，对岸芦苇滩第一次露出轮廓，像一道灰绿的堤。\n\n△ 沈知微不知何时到了船舷边，抱着箱子，望着那道越来越近的岸线出神。\n\n**老周**（身后，忽然）：姑娘，到了岸，往哪儿去？\n\n△ 四十年不问来路的船夫，头一回开了口。沈知微的背僵住了。\n\n**沈知微**（稳住声音）：北门外，投亲。\n\n**老周**（篙没停）：投谁？\n\n**沈知微**（指节收紧）：……姓沈的本家。\n\n△ 老周撑篙的手没停，船擦着芦苇缓缓地走，惊起两只水鸟。\n\n**老周**（声音很平）：县城北门外，早就没有姓沈的接应了。\n\n△ 沈知微猛地回头。\n\n**沈知微**（声音变了）：你说什么？\n\n**老周**（不看她）：三年前就走绝了。走的走，没的没。姑娘，你投的是空门。\n\n△ 风从芦苇滩那边吹过来，她抱着箱子站在船舷边，一动不动。\n\n**沈知微**（逼近一步）：你怎么知道我要投谁？你到底是谁？\n\n**老周**（撑篙，望着河面）：我就是个摆渡的。四十年，什么人没渡过。\n\n△ 他顿了顿，篙尖从水里提起来，滴着水。\n\n**老周**（像在说别人的故事）：渡过去的人多了，回来的少。回来的里头，有人说过沈家的事。\n\n△ 说完这句，老周不再开口，一篙一篙，照旧撑船。\n\n## 第2场 · 渡船船舱（晨雾）\n\n出场：沈知微、胡二爷\n\n△ 沈知微抱着箱子回到舱里，脚步发飘，在角落坐下。\n\n**胡二爷**（递过水囊）：姑娘，喝口水。脸白成这样，可不像晕船。\n\n**沈知微**（机械地摇头）：不用。\n\n**胡二爷**（收回水囊，状似无意）：方才船头的话，二爷我隔着舱板，听见了几个字。\n\n△ 沈知微猛地抬头。胡二爷的笑还挂在脸上，手却停在了半空。\n\n**胡二爷**（说得很慢）：沈姓、接应——就这四个字。\n\n△ 说出这四个字，他脸上的笑挂不住了。\n\n**沈知微**（盯着他）：胡老板听见了，打算怎么样？\n\n**胡二爷**（半晌，苦笑）：不怎么样。二爷我就是忽然想起来，我也有对不住沈家的地方。\n\n△ 他说完就去理货担，理了半天，一件货也没理出来。\n\n**胡二爷**（背对着她，忽然）：当年沈家出事，满城看热闹的人里，有二爷我一个。\n\n**胡二爷**（声音哑了半度）：看了，没说话。这就是对不住。\n\n**沈知微**（轻声）：说话的人，后来都怎么样了？\n\n**胡二爷**（半天才答）：没有说话的人。一个都没有。\n\n△ 舱里静得能听见雾珠子从篷顶滴下来的声音。\n\n**画外音**（沈知微的心声）：接应没了，路断了。可这箱子，拼了命也得送进县城。\n\n**画外音**（沈知微的心声，一字一钉）：满城没有一个人说话。所以状纸只能我自己送。\n\n△ 舱外的芦苇影子从船舷滑过去，岸越来越近，雾越来越薄。\n",
+    "78f7161a-fdfa-5d93-8d85-5d495badc51a": "# 第6集剧本\n\n> 钩子：状纸和旧砚拼出的到底是谁的冤案\n> 结尾悬念：胡二爷这个身份是真交底，还是又一层伪装\n\n## 第1场 · 渡船船舱（雾散近岸）\n\n出场：沈知微、陆行远、老周、胡二爷\n\n△ 冷开场特写：皮箱铜扣被一根拇指推开的一瞬。雾开始散了，舱里第一次照进真正的天光，每个人脸上的影子都藏不住了。\n\n**老周**（从船头）：前头就是渡口，一炷香靠岸。\n\n△ 沈知微站起来。她把皮箱放在舱板正中，当着所有人，打开了铜扣。\n\n△ 没有金银。一摞压得整整齐齐的状纸，状纸上头，一方小小的灵位。\n\n**胡二爷**（倒吸一口气）：状纸……姑娘，你这是要去翻案？\n\n**沈知微**（声音不大，字字清楚）：十年前的沈家案。人证物证，我收了十年。\n\n△ 陆行远走过来，从大衣口袋里取出那方旧砚，轻轻放在状纸上面。\n\n**陆行远**（像落下一枚棋子）：砚归原案。证物齐了。\n\n△ 砚底的刻印和状纸上的案号摆在一起，正好对上。\n\n**胡二爷**（指着灵位，声音小了）：这位是……？\n\n**沈知微**（平静得吓人）：我爹。当年顶罪的人。\n\n△ 舱里没人再说话，只有水声从船底流过。\n\n**沈知微**（看着陆行远）：你早知道我是谁。\n\n**陆行远**（把话说开了）：船到河心就猜到了。雾里认不出脸，认得出十年不肯放手的人。\n\n△ 胡二爷盯着那摞状纸看了很久，忽然长长叹了一口气。\n\n**胡二爷**（把货担一放）：得，二爷我也交个底。\n\n**胡二爷**（说得又快又狠）：我在县衙当差，管的就是案牍。这趟出来，本是盯着这条水路。\n\n△ 满舱一静。老周的篙声都停了半拍。\n\n**沈知微**（后退半步）：盯谁？\n\n**胡二爷**（苦笑）：盯一个可能带着旧案证物过河的人。可盯了一路，我改主意了。\n\n**胡二爷**（一拍胸口）：北门进不去，我领你们走侧门。案牍房的门，我熟。\n\n**老周**（忽然从船头开口）：都定了？定了就把话收好——岸上人多。\n\n△ 这是老周在船上说的最后一句话。天光照在摊开的状纸上。\n\n**画外音**（陆行远的心声）：一船的伪装，到了岸倒都成了同路人。\n\n## 第2场 · 渡口栈桥\n\n出场：沈知微、陆行远、老周、胡二爷、岸上挑灯的更夫\n\n△ 船帮碰上栈桥的旧木，闷闷一声。岸上的更夫挑着灯笼站在桥头，梆子别在腰里。\n\n**岸上挑灯的更夫**（扬声报岸）：渡船靠岸——雾散了，各走各路喽。\n\n△ 更夫凑近了打量三人，灯笼抬了抬，又什么都没问地放下了。\n\n**岸上挑灯的更夫**（压低声，像随口一提）：城门口新添了岗，几位走西巷绕一绕稳当。\n\n**胡二爷**（笑着拱手）：老哥懂行。\n\n△ 沈知微抱着重新合上的皮箱，第一个踏上跳板。这一次，指节没有发白。\n\n**陆行远**（在她身后）：走吧。状纸在，路就在。\n\n△ 胡二爷挑起货担跟上，走两步又回头，朝船头拱了拱手。\n\n**胡二爷**（难得正经）：老周哥，回见。\n\n**老周**（撑篙调头，头也不回）：河上不说回见。要过河，我都在。\n\n△ 三个人的影子一前一后进了城门方向的路。更夫的灯笼在他们身后晃了晃，梆子敲了两下。\n\n**岸上挑灯的更夫**（望着背影，自语）：这一船渡的，怕不只是人。\n\n△ 老周把船撑回河心。雾散后的渡口空空荡荡，只剩栈桥上一串湿脚印，朝着县城。\n"
+  },
+  "keys": {
+    "outline": "f7899a8a-2704-5523-ba0a-dac107d3f2c7",
+    "script:1": "da688fed-f202-5990-a8f0-716ee0ea2bf8",
+    "script:2": "206dfc1c-50a5-5719-a4fc-0b00962fe487",
+    "script:3": "fcea8818-067f-5feb-9cab-b5b596f7f55d",
+    "script:4": "1d150294-06b4-5d7f-a630-94b175f03c3d",
+    "script:5": "289a451a-0ea5-5e36-806a-2af1dd561b25",
+    "script:6": "78f7161a-fdfa-5d93-8d85-5d495badc51a",
+    "cast:C01": "62902e59-aac9-5701-af56-8ddaf17cb236",
+    "cast:C02": "331eda01-c95b-5a47-9544-91cec3cea5de",
+    "cast:C03": "26a58836-eee5-518f-8ad3-f7ac8ce3a456",
+    "cast:C04": "3b029c57-d407-5e05-b282-2ea029a902df",
+    "art:S01": "2e9444c0-1459-55eb-967a-235b0fe03d24",
+    "art:S01:晨雾": "bad35207-caa6-545f-8526-70f6167412c6",
+    "art:S01:雾散近岸": "60c893cb-9e01-5668-a629-e845b9898b32",
+    "art:S02": "fdeb33c7-3a21-5a8e-b240-34ea1048691a",
+    "art:S02:浓雾清晨": "6a3b8c43-b82b-5f77-b4ca-e8686549968e",
+    "art:S03": "b23c1d91-6045-5dda-ae64-c0b28dbdc9ce",
+    "art:S03:薄雾午前": "9bf1f27d-167b-5761-80be-86c8d5cbaafe",
+    "prop:P01": "6e10d6e5-14b6-555e-9816-d380c4319e2a",
+    "prop:P02": "b23a895d-711b-5c6b-ac6f-f5a4d8ead08a",
+    "ref:1:art:S02": "a3d89868-b7ff-58db-ab54-cdd90ee87be6",
+    "ref:1:cast:C01": "fd9eeca1-5b1a-5f0c-8399-2706b092edde",
+    "ref:1:cast:C03": "a612f976-2429-597c-beb0-bf5e05885973",
+    "ref:1:cast:C04": "b3270f2e-713e-5a19-a7b1-63d80daeafc0",
+    "ref:1:prop:P01": "46f91a66-fe05-5470-b22d-c28838b9e647",
+    "seg:E01-01": "378bb639-069f-50a5-a717-2686452065e5",
+    "seg:E01-02": "32e30aff-878a-5e27-8191-e83731f3b24c",
+    "seg:E01-03": "91d0b9d3-da5d-52e4-b96e-3cdbfdb55a73",
+    "ref:1:art:S01": "588886ab-495c-548e-9889-d356d37b4c67",
+    "ref:1:cast:C02": "9a9957bd-aad3-57cd-a215-07995ada24a9",
+    "seg:E01-04": "a78016f4-68a2-5a44-b71e-3fccd8978448",
+    "seg:E01-05": "c878118b-b103-52d5-9db0-639db30fb212",
+    "seg:E01-06": "36bb832f-a926-5b0a-bab1-c79741a6ba2c",
+    "seg:E01-07": "ed0a38db-cdc0-5295-b8a0-d27afad9ee79",
+    "seg:E01-08": "2b4a1c45-fd03-52ae-a9a1-d6ebf4cf0c96",
+    "seg:E01-09": "77e5539c-a804-59c7-a627-13cff2cb1897",
+    "seg:E01-10": "f4f337d1-c455-5197-8d59-b51848f433f9"
+  },
+  "refs": {
+    "a3d89868-b7ff-58db-ab54-cdd90ee87be6": "fdeb33c7-3a21-5a8e-b240-34ea1048691a",
+    "fd9eeca1-5b1a-5f0c-8399-2706b092edde": "62902e59-aac9-5701-af56-8ddaf17cb236",
+    "a612f976-2429-597c-beb0-bf5e05885973": "26a58836-eee5-518f-8ad3-f7ac8ce3a456",
+    "b3270f2e-713e-5a19-a7b1-63d80daeafc0": "3b029c57-d407-5e05-b282-2ea029a902df",
+    "46f91a66-fe05-5470-b22d-c28838b9e647": "6e10d6e5-14b6-555e-9816-d380c4319e2a",
+    "588886ab-495c-548e-9889-d356d37b4c67": "2e9444c0-1459-55eb-967a-235b0fe03d24",
+    "9a9957bd-aad3-57cd-a215-07995ada24a9": "331eda01-c95b-5a47-9544-91cec3cea5de"
+  },
+  "warnings": []
+}
